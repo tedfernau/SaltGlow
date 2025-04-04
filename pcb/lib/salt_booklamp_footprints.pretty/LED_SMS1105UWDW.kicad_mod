@@ -1,0 +1,223 @@
+(footprint "LED_SMS1105UWDW"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED WHT/WARM DIFF 2PLCC SMD R/A")
+	(property "Reference" "REF**"
+		(at 0.5 -1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c53b3ad4-54fa-4868-a757-f97ad6877191")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_SMS1105UWDW"
+		(at 0 -1.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b2b12fc-4525-485d-a613-f82ce562341e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bivar.com/parts_content/Datasheets/SMS1105UWDW.pdf"
+		(at 0.1 1.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6be7f038-68ba-4254-a6de-86091f9a28a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LED WHT/WARM DIFF 2PLCC SMD R/A"
+		(at -0.4 2.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "caab7b9f-88be-4b13-bb00-2af2bf446d16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "SMS1105UWDW"
+		(at -0.1 -3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eacd15ae-fdea-4378-9661-6a0ede31397f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MFR" "Bivar Inc."
+		(at -0.3 1.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "440a9e16-1082-4ff8-be33-363a639825e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.5 -1)
+		(end 2.5 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b7edccd9-64f2-42d4-96b3-266b3ee3a965")
+	)
+	(fp_line
+		(start -1.027704 -0.006651)
+		(end -0.265704 -0.006651)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2103b98d-d8ef-4034-af3e-e692f3dad072")
+	)
+	(fp_line
+		(start -0.265704 -0.260651)
+		(end 0.242296 -0.006651)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f871abdf-3e18-4078-82b0-139d1baa96b9")
+	)
+	(fp_line
+		(start -0.265704 -0.006651)
+		(end -0.265704 -0.260651)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8f1eea83-6a4b-42c8-aecf-4029a419184b")
+	)
+	(fp_line
+		(start -0.265704 0.247349)
+		(end -0.265704 -0.006651)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ca47ee74-e427-4111-96d9-770aaf5edf06")
+	)
+	(fp_line
+		(start 0.242296 -0.260651)
+		(end 0.242296 0.247349)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0baf03bc-16ce-4065-a72c-f7b17e1dc4dc")
+	)
+	(fp_line
+		(start 0.242296 -0.006651)
+		(end -0.265704 0.247349)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d493882a-0d65-4430-a25d-dbbc11f1a8b2")
+	)
+	(fp_line
+		(start 0.242296 -0.006651)
+		(end 1.004296 -0.006651)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6b9ff7ed-42db-40c5-9a52-cfe4843bfca6")
+	)
+	(fp_rect
+		(start -2 -0.5)
+		(end 2 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fb2fb540-5f5a-4fbd-b31d-bfffdac9c1f5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f2d2250a-7255-46f1-bcab-0e1441653f88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" smd roundrect
+		(at -1.2 0 180)
+		(size 1.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "789964a4-b8b6-4a4f-b9fb-61e6f1eae954")
+	)
+	(pad "K" smd roundrect
+		(at 1.2 0)
+		(size 1.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "055a0968-4984-4c86-b349-678d01bea9b8")
+	)
+	(group ""
+		(uuid "68ce8c5b-b299-4e78-91db-21305a39ffe0")
+		(members "0baf03bc-16ce-4065-a72c-f7b17e1dc4dc" "2103b98d-d8ef-4034-af3e-e692f3dad072"
+			"6b9ff7ed-42db-40c5-9a52-cfe4843bfca6" "8f1eea83-6a4b-42c8-aecf-4029a419184b"
+			"ca47ee74-e427-4111-96d9-770aaf5edf06" "d493882a-0d65-4430-a25d-dbbc11f1a8b2"
+			"f871abdf-3e18-4078-82b0-139d1baa96b9"
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3D models/SMS1105XXX.IGS"
+		(offset
+			(xyz 1.25 -0.15 0.45)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

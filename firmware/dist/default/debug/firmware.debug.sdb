@@ -1,0 +1,180 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F15213 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"41 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\main.c
+[v _main main `(i  1 e 2 0 ]
+"39 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"40 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"59
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"81
+[v _INT_CallBack INT_CallBack `(v  1 e 1 0 ]
+"90
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+"94
+[v _INT_DefaultInterruptHandler INT_DefaultInterruptHandler `(v  1 e 1 0 ]
+"40 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"98
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"115
+[v _SWITCH_N_ISR SWITCH_N_ISR `(v  1 e 1 0 ]
+"130
+[v _SWITCH_N_SetInterruptHandler SWITCH_N_SetInterruptHandler `(v  1 e 1 0 ]
+"137
+[v _SWITCH_N_DefaultInterruptHandler SWITCH_N_DefaultInterruptHandler `(v  1 e 1 0 ]
+"145
+[v _CHARGING_N_ISR CHARGING_N_ISR `(v  1 e 1 0 ]
+"160
+[v _CHARGING_N_SetInterruptHandler CHARGING_N_SetInterruptHandler `(v  1 e 1 0 ]
+"167
+[v _CHARGING_N_DefaultInterruptHandler CHARGING_N_DefaultInterruptHandler `(v  1 e 1 0 ]
+"40 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+[s S60 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"426 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16F1xxxx_DFP/1.24.387/xc8\pic\include\proc/pic16f15213.h
+[u S65 . 1 `S60 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES65  1 e 1 @11 ]
+"496
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"546
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+[s S47 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"4989
+[u S52 . 1 `S47 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES52  1 e 1 @1804 ]
+[s S83 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"5117
+[u S88 . 1 `S83 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES88  1 e 1 @1814 ]
+"5680
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"5720
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"5778
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"7285
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"7330
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"7380
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"7425
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"7470
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"7520
+[v _IOCAP IOCAP `VEuc  1 e 1 @7997 ]
+"7570
+[v _IOCAN IOCAN `VEuc  1 e 1 @7998 ]
+"7620
+[v _IOCAF IOCAF `VEuc  1 e 1 @7999 ]
+[s S176 . 1 `uc 1 IOCAF0 1 0 :1:0 
+`uc 1 IOCAF1 1 0 :1:1 
+`uc 1 IOCAF2 1 0 :1:2 
+`uc 1 IOCAF3 1 0 :1:3 
+`uc 1 IOCAF4 1 0 :1:4 
+`uc 1 IOCAF5 1 0 :1:5 
+]
+"7635
+[u S183 . 1 `S176 1 . 1 0 ]
+[v _IOCAFbits IOCAFbits `VES183  1 e 1 @7999 ]
+"38 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\mcc_generated_files/system/src/interrupt.c
+[v _INT_InterruptHandler INT_InterruptHandler `*.37(v  1 e 2 0 ]
+"37 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\mcc_generated_files/system/src/pins.c
+[v _SWITCH_N_InterruptHandler SWITCH_N_InterruptHandler `*.37(v  1 e 2 0 ]
+"38
+[v _CHARGING_N_InterruptHandler CHARGING_N_InterruptHandler `*.37(v  1 e 2 0 ]
+"41 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"64
+} 0
+"40 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"45
+} 0
+"40 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"96
+} 0
+"130
+[v _SWITCH_N_SetInterruptHandler SWITCH_N_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v SWITCH_N_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"132
+} 0
+"160
+[v _CHARGING_N_SetInterruptHandler CHARGING_N_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v CHARGING_N_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"162
+} 0
+"40 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"50
+} 0
+"90
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"92
+} 0
+"39 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"47
+} 0
+"59 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"70
+} 0
+"98 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\Salt booklamp\firmware\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"110
+} 0
+"115
+[v _SWITCH_N_ISR SWITCH_N_ISR `(v  1 e 1 0 ]
+{
+"125
+} 0
+"137
+[v _SWITCH_N_DefaultInterruptHandler SWITCH_N_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"140
+} 0
+"145
+[v _CHARGING_N_ISR CHARGING_N_ISR `(v  1 e 1 0 ]
+{
+"155
+} 0
+"167
+[v _CHARGING_N_DefaultInterruptHandler CHARGING_N_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"170
+} 0

@@ -1,0 +1,273 @@
+(footprint "SOIC-8 - PIC16F15213"
+	(version 20241129)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.705 0 90)
+		(layer "F.SilkS")
+		(uuid "5acdf28f-fa72-4d98-b5bd-35d319eb00e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PIC16F15213-I/SN"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b2b0f943-8de4-479f-9b2d-1d2d009e06f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bd34267-4094-4f1c-9d79-32d8da2e3227")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f25c1065-69d7-4e24-9312-acd392083217")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PIC PIC® 16F, Functional Safety (FuSa) Microcontroller IC 8-Bit 32MHz 3.5KB (2K x 14) FLASH 8-SOIC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fae906f-a900-414f-b5c5-370f20ffb3e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.705 -1.425)
+		(end 2.705 -1.425)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3f85b95b-33ae-4d23-ac8b-8bda5219f3a6")
+	)
+	(fp_line
+		(start -2.705 0.625)
+		(end -2.705 -1.425)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6ce38cea-dc0d-4699-942e-b2318d7ca51d")
+	)
+	(fp_line
+		(start -1.905 1.425)
+		(end -2.705 0.625)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "983e716d-222a-4623-8378-c5925e2cdda4")
+	)
+	(fp_line
+		(start 2.705 -1.425)
+		(end 2.705 1.425)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c75393eb-8309-4a7e-9fc9-ee65d6278a18")
+	)
+	(fp_line
+		(start 2.705 1.425)
+		(end -1.905 1.425)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ad94fb8-5539-4ace-8821-4a298de99ffe")
+	)
+	(fp_line
+		(start -2.46 -3.72)
+		(end 2.46 -3.72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b6161a6-e319-4f09-9f5d-2c9acad59064")
+	)
+	(fp_line
+		(start -2.46 3.72)
+		(end -2.46 -3.72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "64ca0615-0f76-4e70-8936-5e3588d9b5db")
+	)
+	(fp_line
+		(start 2.46 -3.72)
+		(end 2.46 3.72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "38cd7d6d-1dc7-43b9-afbb-be619e974f62")
+	)
+	(fp_line
+		(start 2.46 3.72)
+		(end -2.46 3.72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6be92c56-073e-4ded-93a5-f89c5d9bbf57")
+	)
+	(fp_line
+		(start -2.705 -1.425)
+		(end 2.705 -1.425)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4b32cee9-891e-4f6a-a890-9b91c2bdf62c")
+	)
+	(fp_line
+		(start -2.705 0.625)
+		(end -2.705 -1.425)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "35ca89f7-1567-4c73-a7ee-9018928a2dc8")
+	)
+	(fp_line
+		(start -1.905 1.425)
+		(end -2.705 0.625)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1d06e987-77ee-4ae5-9de3-497521ae8d8c")
+	)
+	(fp_line
+		(start 2.705 -1.425)
+		(end 2.705 1.425)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a545f8fc-c701-48ed-bf9a-5d3abab2addb")
+	)
+	(fp_line
+		(start 2.705 1.425)
+		(end -1.905 1.425)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2285d4e8-8260-40c6-8c05-96c9a30f406c")
+	)
+	(pad "1" smd rect
+		(at -1.905 2.7)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4a403307-277d-4fc0-9d2d-6faa8c530e0b")
+	)
+	(pad "2" smd rect
+		(at -0.635 2.7)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "52ebc957-dc4b-4a81-a2a8-c1d8005d7993")
+	)
+	(pad "3" smd rect
+		(at 0.635 2.7)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "996fa5a8-40aa-4a11-8469-39bb14ea07b3")
+	)
+	(pad "4" smd rect
+		(at 1.905 2.7)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e564eaab-d2b3-420c-a901-f04d0acec943")
+	)
+	(pad "5" smd rect
+		(at 1.905 -2.7)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "17083b29-5726-46a4-b33b-129181391c66")
+	)
+	(pad "6" smd rect
+		(at 0.635 -2.7)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "90c3c938-376d-4d40-8f03-d5bf4a70cc8d")
+	)
+	(pad "7" smd rect
+		(at -0.635 -2.7)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "f7b5c845-15a2-4469-9a11-dc7e818542e0")
+	)
+	(pad "8" smd rect
+		(at -1.905 -2.7)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "1bb6708f-d696-4e97-97ec-d91151645edb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3D models/SOIC8_SN_MCH.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

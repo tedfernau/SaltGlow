@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\non-work\LunchTimeProjects\Salt booklamp\pcb\salt_booklamp\salt_booklamp.kicad_sch</source>
+    <date>8/21/2023 9:39:45 AM</date>
+    <tool>Eeschema (7.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>salt_booklamp.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BATT1">
+      <value>battery</value>
+      <footprint>salt_booklamp_footprints:PRT-13851</footprint>
+      <libsource lib="salt_booklamp" part="battery" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="salt_booklamp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82b4b2c5-6fa0-4671-9ad1-74e4f21cb0b5</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>salt_booklamp_footprints:885012206020</footprint>
+      <libsource lib="salt_booklamp" part="capacitor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="salt_booklamp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>382560c6-9795-41f6-b4b2-4ab17d4374b3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>~</value>
+      <footprint>salt_booklamp_footprints:USB4800-03-A</footprint>
+      <libsource lib="salt_booklamp" part="USB-C_12_pin" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="salt_booklamp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81233487-6f96-4209-adaf-bc327a4ee6ac</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>~</value>
+      <footprint>salt_booklamp_footprints:LED - ASMY-CWG0-NX7J2</footprint>
+      <libsource lib="salt_booklamp" part="LED" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="salt_booklamp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fbf8e5f-78ac-482f-b80c-ba9a6b261ca6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.75k</value>
+      <footprint>salt_booklamp_footprints:WR06X472 JTL</footprint>
+      <libsource lib="salt_booklamp" part="resistor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="salt_booklamp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3955a922-a9be-4ab2-920e-eeb770a46a8c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>430</value>
+      <footprint>salt_booklamp_footprints:WR06X472 JTL</footprint>
+      <libsource lib="" part="resistor_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="salt_booklamp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22d3f610-559c-4cc6-877e-b363cc0f45d3</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>90</value>
+      <footprint>salt_booklamp_footprints:WR06X472 JTL</footprint>
+      <libsource lib="" part="resistor_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="salt_booklamp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38cd8d8e-e005-43e8-8b4f-efa72e4e11ea</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>~</value>
+      <footprint>salt_booklamp_footprints:1825232-1</footprint>
+      <libsource lib="salt_booklamp" part="switch" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="salt_booklamp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32ec6d35-7d82-4376-a81c-8c0fe25faa6f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>salt_booklamp_footprints:MP2603EJ-LF-Z</footprint>
+      <libsource lib="salt_booklamp" part="batt_chg_ic" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="salt_booklamp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>088694f5-31e6-4b11-a4f9-e20892a50fa6</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="resistor_1">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">salt_booklamp_footprints:WR06X472 JTL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="resistor_2">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">salt_booklamp_footprints:WR06X472 JTL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="salt_booklamp" part="LED">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Footprint">salt_booklamp_footprints:LED - ASMY-CWG0-NX7J2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="a" type="input"/>
+        <pin num="2" name="k" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="salt_booklamp" part="USB-C_12_pin">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB-C_12_pin</field>
+        <field name="Footprint">salt_booklamp_footprints:USB4800-03-A</field>
+      </fields>
+      <pins>
+        <pin num="A1/B12" name="GND" type="power_out"/>
+        <pin num="A4/B9" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A6" name="Dp1" type="passive"/>
+        <pin num="A7" name="Dn1" type="passive"/>
+        <pin num="A8" name="SBU1" type="passive"/>
+        <pin num="B1/A12" name="GND" type="power_out"/>
+        <pin num="B4/A9" name="VBUS" type="power_in"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B6" name="Dp2" type="passive"/>
+        <pin num="B7" name="Dn2" type="passive"/>
+        <pin num="B8" name="SBU2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="salt_booklamp" part="batt_chg_ic">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">salt_booklamp_footprints:MP2603EJ-LF-Z</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ipgm" type="input"/>
+        <pin num="2" name="gnd" type="power_out"/>
+        <pin num="3" name="chgz" type="input"/>
+        <pin num="4" name="in" type="power_in"/>
+        <pin num="5" name="batt" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="salt_booklamp" part="battery">
+      <fields>
+        <field name="Reference">BATT</field>
+        <field name="Value">battery</field>
+        <field name="Footprint">salt_booklamp_footprints:PRT-13851</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_out"/>
+        <pin num="2" name="-" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="salt_booklamp" part="capacitor">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">0.1uF</field>
+        <field name="Footprint">salt_booklamp_footprints:885012206020</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_in"/>
+        <pin num="2" name="2" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="salt_booklamp" part="resistor">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">4.75k</field>
+        <field name="Footprint">salt_booklamp_footprints:WR06X472 JTL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="salt_booklamp" part="switch">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Footprint">salt_booklamp_footprints:1825232-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="output"/>
+        <pin num="3" name="3" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="salt_booklamp">
+      <uri>C:\non-work\LunchTimeProjects\Salt booklamp\pcb\salt_booklamp/lib/salt_booklamp.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+">
+      <node ref="BATT1" pin="1" pinfunction="+" pintype="power_out"/>
+      <node ref="LED1" pin="1" pinfunction="a" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="batt" pintype="power_out"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="BATT1" pin="2" pinfunction="-" pintype="power_in"/>
+      <node ref="C1" pin="2" pinfunction="2" pintype="power_out"/>
+      <node ref="J1" pin="A1/B12" pinfunction="GND" pintype="power_out"/>
+      <node ref="J1" pin="B1/A12" pinfunction="GND" pintype="power_out"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="output"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="gnd" pintype="power_out"/>
+    </net>
+    <net code="3" name="Net-(LED1-k)">
+      <node ref="LED1" pin="2" pinfunction="k" pintype="output"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="output"/>
+      <node ref="S1" pin="2" pinfunction="2" pintype="output"/>
+    </net>
+    <net code="4" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pinfunction="2" pintype="output"/>
+      <node ref="S1" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(U1-chgz)">
+      <node ref="R2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="chgz" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(U1-in)">
+      <node ref="C1" pin="1" pinfunction="1" pintype="power_in"/>
+      <node ref="J1" pin="A4/B9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J1" pin="B4/A9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="in" pintype="power_in"/>
+    </net>
+    <net code="7" name="Net-(U1-ipgm)">
+      <node ref="R1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U1" pin="1" pinfunction="ipgm" pintype="input"/>
+    </net>
+    <net code="8" name="unconnected-(J1-CC1-PadA5)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="passive+no_connect"/>
+    </net>
+    <net code="9" name="unconnected-(J1-CC2-PadB5)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="passive+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(J1-Dn1-PadA7)">
+      <node ref="J1" pin="A7" pinfunction="Dn1" pintype="passive+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(J1-Dn2-PadB7)">
+      <node ref="J1" pin="B7" pinfunction="Dn2" pintype="passive+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(J1-Dp1-PadA6)">
+      <node ref="J1" pin="A6" pinfunction="Dp1" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(J1-Dp2-PadB6)">
+      <node ref="J1" pin="B6" pinfunction="Dp2" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(S1-Pad3)">
+      <node ref="S1" pin="3" pinfunction="3" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
