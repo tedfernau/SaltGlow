@@ -466,8 +466,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "salt_booklamp_footprints",
+      "GymTimer"
+    ],
+    "pinned_symbol_libs": [
+      "salt_booklamp"
+    ]
   },
   "meta": {
     "filename": "salt_booklamp.kicad_pro",

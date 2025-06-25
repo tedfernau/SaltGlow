@@ -2863,7 +2863,7 @@
 		)
 		(uuid "420ca551-a437-4493-9842-9f06eebd0ab2")
 	)
-	(text_box "PENDING CHANGES Rev 0.2\n----------------------\n[ ]-Measure Battery Voltage? - move measurement to different pin\n\n[X]-Add another LED\n\n[ ]-Battery Connector\n\n[ ]-USBC - 5k1 R from CC to GND\n\n[ ]-0402 components for more space\n\n"
+	(text_box "PENDING CHANGES Rev 0.2\n----------------------\n[ ]-Measure Battery Voltage? - move measurement to different pin\n\n[X]-Add another LED\n\n[ ]-Battery Connector\n\n[X]-USBC - 5k1 R from CC to GND\n\n[ ]-0402 components for more space\n\n"
 		(exclude_from_sim no)
 		(at 27.94 153.67 0)
 		(size 72.39 38.1)
@@ -3046,6 +3046,12 @@
 		(uuid "ae9fd8a6-e58c-4384-b137-1a3f1f043368")
 	)
 	(junction
+		(at 17.78 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2353d31-5aef-49db-bce9-c6c5faaf9345")
+	)
+	(junction
 		(at 124.46 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3138,10 +3144,6 @@
 		(uuid "0954e37a-1bb0-4ef6-a665-7ba85ded5288")
 	)
 	(no_connect
-		(at 26.67 92.71)
-		(uuid "161ce0be-c44f-4957-9761-0c04b6950774")
-	)
-	(no_connect
 		(at 26.67 82.55)
 		(uuid "1a397b92-b1e0-4c11-a221-83cdc01094ca")
 	)
@@ -3160,10 +3162,6 @@
 	(no_connect
 		(at 26.67 114.3)
 		(uuid "3ab9b04c-5417-48a9-a69d-6fd2be606d2d")
-	)
-	(no_connect
-		(at 26.67 104.14)
-		(uuid "46f6b35b-c961-4d2f-982f-9c6f1028dc0f")
 	)
 	(no_connect
 		(at 26.67 87.63)
@@ -3259,6 +3257,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 118.11) (xy 20.32 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aef5fe9-5a1c-4b28-b1e1-ba79b581c804")
+	)
+	(wire
+		(pts
 			(xy 151.13 123.19) (xy 151.13 125.73)
 		)
 		(stroke
@@ -3346,6 +3354,16 @@
 			(type default)
 		)
 		(uuid "1c3d309a-56ee-4b0c-871b-57db8ed4fb20")
+	)
+	(wire
+		(pts
+			(xy 17.78 121.92) (xy 17.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd1696c-7faa-45e3-b2e9-acfc4f0a4559")
 	)
 	(wire
 		(pts
@@ -3576,6 +3594,16 @@
 			(type default)
 		)
 		(uuid "4d7accba-5d66-475f-9d0b-83a1bd0f250f")
+	)
+	(wire
+		(pts
+			(xy 15.24 119.38) (xy 15.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4faf5e0b-32de-45ad-9319-700a7cf985a7")
 	)
 	(wire
 		(pts
@@ -3909,6 +3937,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 119.38) (xy 15.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82952d1d-eb60-4187-9c6f-d8ca928fba7f")
+	)
+	(wire
+		(pts
 			(xy 223.52 119.38) (xy 223.52 128.27)
 		)
 		(stroke
@@ -4099,6 +4137,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 119.38) (xy 17.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ebd4ed-43f8-48fa-822d-6a1953ad1651")
+	)
+	(wire
+		(pts
 			(xy 48.26 80.01) (xy 48.26 82.55)
 		)
 		(stroke
@@ -4159,6 +4207,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 104.14) (xy 26.67 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ea96b4-2cd9-4463-a4f3-b2baa44cd7bb")
+	)
+	(wire
+		(pts
 			(xy 104.14 100.33) (xy 104.14 99.06)
 		)
 		(stroke
@@ -4196,6 +4254,16 @@
 			(type default)
 		)
 		(uuid "c96cfc70-2a0b-4e7e-8706-5a27a5c0acef")
+	)
+	(wire
+		(pts
+			(xy 15.24 104.14) (xy 15.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab4cc03-8123-47ee-aa45-9177fd26e073")
 	)
 	(wire
 		(pts
@@ -4416,6 +4484,16 @@
 			(type default)
 		)
 		(uuid "e8c5244f-6a94-4452-b279-1d49d07e61bb")
+	)
+	(wire
+		(pts
+			(xy 15.24 92.71) (xy 26.67 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ed9cab-00a7-4d7b-9298-4e19ddecf05e")
 	)
 	(wire
 		(pts
@@ -6006,6 +6084,24 @@
 			"AAAAAAAiAgFtAAAAAAAAAEBEIKANAAAAAAAAAIgIBLQBAAAAAAAAABGBgDYAAAAAAAAAICIQ0AYA"
 			"AAAAAAAARAQC2gAAAAAAAACAiEBAGwAAAAAAAAAQEQhoAwAAAAAAAAAigPT/evmCDx9uzc0AAAAA"
 			"SUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -8826,6 +8922,82 @@
 		)
 	)
 	(symbol
+		(lib_id "salt_booklamp:resistor")
+		(at 20.32 111.76 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b93cb15c-39c1-461c-a225-ec568db65f7a")
+		(property "Reference" "R9"
+			(at 19.05 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 19.05 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "salt_booklamp_footprints:res_0603"
+			(at 15.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1.2K OHM 1% 1/10W 0603"
+			(at 20.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CR0603-FX-1201ELF"
+			(at 20.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01ad639d-9efc-43e0-b0f4-8c6e2107be78")
+		)
+		(pin "2"
+			(uuid "790ae15e-7db3-4696-82af-975171b911ee")
+		)
+		(instances
+			(project "salt_booklamp"
+				(path "/991f2cc7-99ce-452c-919d-a53cd26a4b08"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "salt_booklamp:batt_chg_ic_BQ21040DBVR")
 		(at 77.47 109.22 0)
 		(unit 1)
@@ -8986,6 +9158,76 @@
 			(project "salt_booklamp"
 				(path "/991f2cc7-99ce-452c-919d-a53cd26a4b08"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "P,GND_2")
+		(lib_id "PCM_Generic:P,GND")
+		(at 17.78 121.92 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5fcc909-1f56-44a3-b87d-7f27e3afd82b")
+		(property "Reference" "#PWR019"
+			(at 21.59 118.11 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 121.92 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 121.92 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 121.92 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "3784e4a4-e185-4a3e-9678-d786a7253eed")
+		)
+		(instances
+			(project "salt_booklamp"
+				(path "/991f2cc7-99ce-452c-919d-a53cd26a4b08"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9191,6 +9433,82 @@
 			(project "salt_booklamp"
 				(path "/991f2cc7-99ce-452c-919d-a53cd26a4b08"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "salt_booklamp:resistor")
+		(at 15.24 111.76 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8690c43-861a-4972-8a91-bb05e1dc9eb5")
+		(property "Reference" "R10"
+			(at 13.97 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 13.97 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "salt_booklamp_footprints:res_0603"
+			(at 10.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1.2K OHM 1% 1/10W 0603"
+			(at 15.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CR0603-FX-1201ELF"
+			(at 15.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0e0968f-d13a-48db-9de7-11f05151d657")
+		)
+		(pin "2"
+			(uuid "6ed6ca04-0870-4225-a8a9-9ad3dfaab697")
+		)
+		(instances
+			(project "salt_booklamp"
+				(path "/991f2cc7-99ce-452c-919d-a53cd26a4b08"
+					(reference "R10")
 					(unit 1)
 				)
 			)
