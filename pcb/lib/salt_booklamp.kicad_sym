@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20240819)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(symbol "1-Pin_Header"
 		(pin_numbers
 			(hide yes)
@@ -3398,7 +3398,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "EMK105BJ105KV-F"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3794,17 +3803,6 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 0 0)
-				(radius 6.8392)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0 0) (xy -1.27 1.27) (xy -1.27 -1.27) (xy 0 0)
@@ -3815,6 +3813,17 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 6.8392)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(polyline

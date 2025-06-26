@@ -2438,17 +2438,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C1"
-				(at 2.54 -1.27 90)
+			(property "Reference" "C"
+				(at 2.54 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "0.1uF"
-				(at -3.81 0 90)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2456,7 +2455,7 @@
 				)
 			)
 			(property "Footprint" "salt_booklamp_footprints:885012206020"
-				(at 0 -5.08 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2473,7 +2472,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "CAP CER 1UF 16V X5R 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "EMK105BJ105KV-F"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2863,7 +2871,7 @@
 		)
 		(uuid "420ca551-a437-4493-9842-9f06eebd0ab2")
 	)
-	(text_box "PENDING CHANGES Rev 0.2\n----------------------\n[ ]-Measure Battery Voltage? - move measurement to different pin\n\n[X]-Add another LED\n\n[ ]-Battery Connector\n\n[X]-USBC - 5k1 R from CC to GND\n\n[ ]-0402 components for more space\n\n"
+	(text_box "PENDING CHANGES Rev 0.2\n----------------------\n[ ]-Measure Battery Voltage? - move measurement to different pin\n\n[X]-Add another LED\n\n[ ]-Battery Connector\n\n[X]-USBC - 5k1 R from CC to GND\n\n[X]-0402 components for more space\n\n"
 		(exclude_from_sim no)
 		(at 27.94 153.67 0)
 		(size 72.39 38.1)
@@ -6209,6 +6217,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAA=="
 		)
 	)
@@ -6298,7 +6324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:res_0603"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 134.62 134.62 0)
 			(effects
 				(font
@@ -6375,7 +6401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:res_0603"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 158.75 91.44 0)
 			(effects
 				(font
@@ -6616,7 +6642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:res_0603"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 252.73 128.27 0)
 			(effects
 				(font
@@ -6843,7 +6869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:cap_0603"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 219.71 109.22 0)
 			(effects
 				(font
@@ -6861,7 +6887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X7R 0603"
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
 			(at 219.71 104.14 0)
 			(effects
 				(font
@@ -6870,7 +6896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B105KP8NNNC"
+		(property "Manufacturer Part Number" "EMK105BJ105KV-F"
 			(at 209.804 98.298 0)
 			(effects
 				(font
@@ -7140,7 +7166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:cap_0603"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 55.88 97.79 0)
 			(effects
 				(font
@@ -7158,7 +7184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X7R 0603"
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
 			(at 55.88 92.71 0)
 			(effects
 				(font
@@ -7167,7 +7193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B105KP8NNNC"
+		(property "Manufacturer Part Number" "EMK105BJ105KV-F"
 			(at 55.88 92.71 0)
 			(effects
 				(font
@@ -7293,7 +7319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:res_0603"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 92.71 119.38 0)
 			(effects
 				(font
@@ -7505,7 +7531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:cap_0603"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 151.13 125.73 0)
 			(effects
 				(font
@@ -7523,7 +7549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X7R 0603"
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
 			(at 151.13 120.65 0)
 			(effects
 				(font
@@ -7532,7 +7558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B105KP8NNNC"
+		(property "Manufacturer Part Number" "EMK105BJ105KV-F"
 			(at 151.13 120.65 0)
 			(effects
 				(font
@@ -7810,7 +7836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:res_0603"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 120.65 0)
 			(effects
 				(font
@@ -7887,7 +7913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:res_0603"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.73 95.25 0)
 			(effects
 				(font
@@ -8100,7 +8126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:cap_0603"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.95 99.06 0)
 			(effects
 				(font
@@ -8118,7 +8144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X7R 0603"
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
 			(at 107.95 93.98 0)
 			(effects
 				(font
@@ -8127,7 +8153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B105KP8NNNC"
+		(property "Manufacturer Part Number" "EMK105BJ105KV-F"
 			(at 107.95 93.98 0)
 			(effects
 				(font
@@ -8507,7 +8533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:cap_0603"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 257.81 119.38 0)
 			(effects
 				(font
@@ -8525,7 +8551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X7R 0603"
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
 			(at 257.81 114.3 0)
 			(effects
 				(font
@@ -8534,7 +8560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B105KP8NNNC"
+		(property "Manufacturer Part Number" "EMK105BJ105KV-F"
 			(at 257.81 114.3 0)
 			(effects
 				(font
@@ -8584,7 +8610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:res_0603"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.35 95.25 0)
 			(effects
 				(font
@@ -8946,7 +8972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:res_0603"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 15.24 111.76 0)
 			(effects
 				(font
@@ -9463,7 +9489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:res_0603"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 10.16 111.76 0)
 			(effects
 				(font
@@ -9610,7 +9636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:res_0603"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 273.05 123.19 0)
 			(effects
 				(font
