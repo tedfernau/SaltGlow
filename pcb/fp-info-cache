@@ -1,4 +1,4 @@
-24794882419085249
+24798384855205031
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58301,6 +58301,20 @@ BK-913
 
 0
 3
+2
+GymTimer
+DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm
+8-Lead Plastic Dual Flat, No Lead Package (MF) - 3x3x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
+DFN 0.65
+0
+13
+8
+GymTimer
+JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal
+JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+2
 2
 GymTimer
 PIC Programming header

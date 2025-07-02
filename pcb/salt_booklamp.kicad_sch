@@ -1705,7 +1705,7 @@
 				)
 			)
 			(symbol "USB-C_24_pin_1_0"
-				(pin power_in line
+				(pin passive line
 					(at -10.16 8.89 0)
 					(length 2.54)
 					(name "VBUS"
@@ -1723,7 +1723,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -10.16 6.35 0)
 					(length 2.54)
 					(name "VBUS"
@@ -1741,7 +1741,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -10.16 3.81 0)
 					(length 2.54)
 					(name "VBUS"
@@ -1759,7 +1759,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -10.16 1.27 0)
 					(length 2.54)
 					(name "VBUS"
@@ -1770,6 +1770,24 @@
 						)
 					)
 					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -36.83 90)
+					(length 2.54)
+					(name "mount"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2067,7 +2085,7 @@
 				)
 			)
 			(symbol "USB-C_24_pin_1_1"
-				(pin power_out line
+				(pin passive line
 					(at -10.16 -3.81 0)
 					(length 2.54)
 					(name "GND"
@@ -2085,7 +2103,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -10.16 -6.35 0)
 					(length 2.54)
 					(name "GND"
@@ -2103,7 +2121,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -10.16 -8.89 0)
 					(length 2.54)
 					(name "GND"
@@ -2121,7 +2139,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -10.16 -11.43 0)
 					(length 2.54)
 					(name "GND"
@@ -2402,7 +2420,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2420,7 +2438,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4505,6 +4523,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 128.27) (xy 40.64 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98251e4-8a3d-45da-9278-84318ebe397b")
+	)
+	(wire
+		(pts
 			(xy 194.31 109.22) (xy 194.31 96.52)
 		)
 		(stroke
@@ -6235,6 +6263,42 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAA=="
 		)
 	)
@@ -6833,6 +6897,9 @@
 		)
 		(pin "B2"
 			(uuid "e6781fe9-33ef-4c36-8fa1-bca0193e3220")
+		)
+		(pin "0"
+			(uuid "c4594722-2040-4103-9c09-5172da352692")
 		)
 		(instances
 			(project "salt_booklamp"
@@ -8182,7 +8249,7 @@
 		(at 100.33 93.98 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "82b4b2c5-6fa0-4671-9ad1-74e4f21cb0b5")
@@ -8195,15 +8262,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1578"
+		(property "Value" "S2B-PH-K-S"
 			(at 97.282 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:PRT-13851"
+		(property "Footprint" "GymTimer:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 100.33 93.98 0)
 			(effects
 				(font
@@ -8212,7 +8280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1578/5054539"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626"
 			(at 100.33 93.98 0)
 			(effects
 				(font
@@ -8221,7 +8289,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BATTERY LITH-ION 3.7V 500MAH"
+		(property "Description" "CONN HEADER R/A 2POS 2MM"
+			(at 100.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "S2B-PH-K-S"
 			(at 100.33 93.98 0)
 			(effects
 				(font
@@ -8240,6 +8317,76 @@
 			(project "salt_booklamp"
 				(path "/991f2cc7-99ce-452c-919d-a53cd26a4b08"
 					(reference "BATT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "P,GND_2")
+		(lib_id "PCM_Generic:P,GND")
+		(at 40.64 130.81 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a8999e2-79fd-495c-9cbc-b36c70d58eb4")
+		(property "Reference" "#PWR020"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 130.81 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 130.81 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "7aa4701b-6ffb-4ccd-aaae-0843cfa82e2d")
+		)
+		(instances
+			(project "salt_booklamp"
+				(path "/991f2cc7-99ce-452c-919d-a53cd26a4b08"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9782,7 +9929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "salt_booklamp_footprints:SOIC-8 - PIC16F15213"
+		(property "Footprint" "GymTimer:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
 			(at 166.37 111.76 0)
 			(effects
 				(font
@@ -9809,7 +9956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/microchip-technology/PIC16F15213-I-SN/12807336"
+		(property "Digikey" "https://www.digikey.com/en/products/detail/microchip-technology/PIC16F15213T-I-MF/12807572"
 			(at 173.99 110.49 0)
 			(effects
 				(font
@@ -9818,7 +9965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "PIC16F15213-I/SN"
+		(property "Manufacturer Part Number" "PIC16F15213T-I/MF"
 			(at 173.736 119.888 0)
 			(effects
 				(font
