@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -116,7 +116,7 @@
   "project": {
     "files": [
       {
-        "name": "salt_booklamp.kicad_pcb",
+        "name": "salt_booklamp.kicad_sch",
         "open": false,
         "window": {
           "display": 1,
@@ -128,15 +128,15 @@
         }
       },
       {
-        "name": "salt_booklamp.kicad_sch",
-        "open": true,
+        "name": "salt_booklamp.kicad_pcb",
+        "open": false,
         "window": {
           "display": 1,
           "maximized": false,
-          "pos_x": 5752,
-          "pos_y": 0,
+          "pos_x": 5746,
+          "pos_y": 38,
           "size_x": 1936,
-          "size_y": 2108
+          "size_y": 1991
         }
       }
     ]
