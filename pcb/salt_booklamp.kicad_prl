@@ -114,20 +114,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "salt_booklamp.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 3831,
-          "pos_y": -9,
-          "size_x": 3858,
-          "size_y": 2118
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {
