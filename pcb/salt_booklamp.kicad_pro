@@ -574,7 +574,7 @@
       "plot": "../../build5/",
       "pos_files": "../../build5/",
       "specctra_dsn": "",
-      "step": "../../build6/salt_booklamp_pca.step",
+      "step": "../mechanical/salt_booklamp_pca.step",
       "svg": "",
       "vrml": ""
     },
