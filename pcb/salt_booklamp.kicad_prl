@@ -117,7 +117,7 @@
     "files": [
       {
         "name": "salt_booklamp.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 1,
           "maximized": false,
@@ -125,18 +125,6 @@
           "pos_y": 6,
           "size_x": 1768,
           "size_y": 2098
-        }
-      },
-      {
-        "name": "salt_booklamp.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": 3832,
-          "pos_y": 0,
-          "size_x": 1936,
-          "size_y": 2108
         }
       }
     ]
