@@ -132,7 +132,7 @@
 	(net 12 "Net-(U2-ISET)")
 	(net 13 "unconnected-(S1-Pad3)")
 	(net 14 "GND")
-	(net 15 "Net-(U3-LX)")
+	(net 15 "/LED_DRV_SW")
 	(net 16 "unconnected-(J1-SSTSp1-PadA2)")
 	(net 17 "unconnected-(J1-SSTXn1-PadA3)")
 	(net 18 "unconnected-(J1-SSTXp2-PadB2)")
@@ -1531,7 +1531,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "213d83c5-7fe9-4820-8cd6-45ef66a109ac")
-		(at 242.782 149.332 180)
+		(at 242.572 150.532 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -2361,7 +2361,7 @@
 			(size 0.3 0.45)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 15 "Net-(U3-LX)")
+			(net 15 "/LED_DRV_SW")
 			(pinfunction "LX")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -3123,7 +3123,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PIC16F15213-I/SN"
+		(property "Value" "PIC16F15213T-I/MF"
 			(at 0 -2.55 0)
 			(layer "B.Fab")
 			(uuid "9400bfe6-f176-461d-ad3c-b211a864cd53")
@@ -3149,7 +3149,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "PIC PIC® 16F, Functional Safety (FuSa) Microcontroller IC 8-Bit 32MHz 3.5KB (2K x 14) FLASH 8-SOIC"
+		(property "Description" "PIC PIC® 16F, Functional Safety (FuSa) Microcontroller IC 8-Bit 32MHz 3.5KB (2K x 14) FLASH 8-DFN (3x3)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4110,7 +4110,7 @@
 			(size 1 3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 15 "Net-(U3-LX)")
+			(net 15 "/LED_DRV_SW")
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -4353,7 +4353,7 @@
 	(footprint "GymTimer:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "bec4e866-853f-4c29-9fa0-6fc4f8f712b9")
-		(at 241.532 146.982)
+		(at 241.532 147.532)
 		(descr "JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH top entry")
 		(property "Reference" "BATT1"
@@ -4877,7 +4877,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "c90bdb2b-0eb0-41c4-9455-2568bb0f174b")
-		(at 240.782 149.432)
+		(at 240.572 150.632)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
@@ -8727,6 +8727,14 @@
 				)
 			)
 		)
+	)
+	(segment
+		(start 209.362 146.552)
+		(end 209.382 146.532)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "f98f24b2-71e9-458b-b43e-8584436773b1")
 	)
 	(zone
 		(net 14)

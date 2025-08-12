@@ -508,9 +508,9 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "POWER",
-        "pcb_color": "rgb(194, 0, 0)",
+        "pcb_color": "rgb(255, 18, 29)",
         "priority": 0,
-        "schematic_color": "rgb(132, 0, 0)",
+        "schematic_color": "rgb(255, 18, 29)",
         "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -563,6 +563,26 @@
       {
         "netclass": "POWER",
         "pattern": "/+5V_ LED"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+3.7_VBATT"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+5V_USB"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/LED_DRV_SW"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/LED_DRV"
       }
     ]
   },
@@ -739,6 +759,18 @@
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
           "show": false
         }
       ],
