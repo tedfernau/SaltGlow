@@ -163,7 +163,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a60823f2-5c16-4ced-9164-1133c71ee41b")
+			(uuid "7911ff06-a967-4293-bb6b-4f0333bcd492")
 			(effects
 				(font
 					(size 1 1)
@@ -176,7 +176,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "470f2c1d-4496-4992-a97f-d04bd32b0e5b")
+			(uuid "dac4df13-3362-443d-baeb-f04f4d9a10b2")
 			(effects
 				(font
 					(size 1 1)
@@ -189,7 +189,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00bd56e2-b0b5-4f2b-84cd-a63ab993f7f0")
+			(uuid "e24bb946-dc7d-45db-bb89-f2e849445329")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,7 +202,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b71ee11f-6d64-41ac-8f6c-7450b7cb0dc3")
+			(uuid "14059a7c-9259-4010-819d-b0b10e8d5a3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -398,6 +398,671 @@
 			)
 		)
 	)
+	(footprint "salt_booklamp_footprints:1-pin header"
+		(layer "F.Cu")
+		(uuid "0f5c84c6-2ad7-4b8f-a3a0-8509678311a7")
+		(at 210.482 135.432)
+		(property "Reference" "TP_~{CHARGING}1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "Rescue")
+			(uuid "5a35e19f-21e6-423b-9376-480ce3e1af19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "bcf7538a-a495-4776-9ae1-39f278ccd9e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05bc8bf4-2754-4e68-8432-e63d2be592c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f9ade52-2f28-47e1-a58c-13cc5143429f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/0178ed46-b0bd-4086-a185-522595df1dac")
+		(sheetname "/")
+		(sheetfile "salt_booklamp.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 6.5 0.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0d20ca79-d471-4876-b4e4-9a8944c682b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "15c42b57-37b6-4b59-b66c-dedc8c66957c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 29 "/~{CHARGING}")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "ad514bf4-bee5-47c9-ab00-4aabedc364b4")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "salt_booklamp_footprints:1-pin header"
+		(layer "F.Cu")
+		(uuid "1cd58261-18e9-4de4-a350-bf05ada58e49")
+		(at 210.482 129.132)
+		(property "Reference" "TP_3.7V_BATT1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "Rescue")
+			(uuid "d0171935-50b0-4c52-a144-2669e7e12865")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "01bab11e-c7ea-4970-b4f3-f75043829eee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6ac463c-a766-4e30-856e-a9bea29a2671")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d660d392-b68c-48af-9ce0-76fd32f3b59c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/6e987437-f978-4168-955c-12a59c716963")
+		(sheetname "/")
+		(sheetfile "salt_booklamp.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 6.476191 0.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "df5e4809-d95d-423b-b6e2-39733c018983")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "69f75cd5-bd5b-4aa7-aeb8-2309c1708719")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "+3.7_VBATT")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "81e6970c-31f6-4a9d-a5af-799d5a68f578")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "salt_booklamp_footprints:1-pin header"
+		(layer "F.Cu")
+		(uuid "5f0a3f40-278c-4741-95cc-a5a2acf6c856")
+		(at 210.482 127.032)
+		(property "Reference" "TP_5V_USB1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "Rescue")
+			(uuid "c3bbb081-6a25-4bfd-9d5a-d07d5b351cae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "cf8cfa69-240b-471d-9c1a-109afd11f10d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b49d1a0a-9fce-440e-8904-3191186f4333")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f7f0324-2a4e-44cf-9600-91039a8db261")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ad3860d9-4489-410e-873e-aaeb9842c174")
+		(sheetname "/")
+		(sheetfile "salt_booklamp.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 5.571429 0.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0e02effd-b048-4e05-9bfe-4da49da0e275")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "98e81ed7-5521-4b98-8574-53664772c4d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "+5V_USB")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "fa2acec8-37df-4b8c-8ff4-8736927d8f3d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "salt_booklamp_footprints:1-pin header"
+		(layer "F.Cu")
+		(uuid "81ed57a5-7df2-4366-8779-7ab141ce2c00")
+		(at 210.482 137.532)
+		(property "Reference" "TP_LED_CTRL1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "Rescue")
+			(uuid "f0cf97a9-2f2a-4544-ac40-4c3d39a91fa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "c53467a0-65ee-43cf-87e0-6cf4f62a82b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e7f7b6d-2007-4336-bfcd-3527fcb9fc0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27aad5f5-9663-49c8-b6a7-77072a857862")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3f90eed6-ff78-4418-89f3-c2102fce490c")
+		(sheetname "/")
+		(sheetfile "salt_booklamp.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 6.309524 0.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "eeeeba52-57b5-40da-b7cd-4a527a6deab2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "d6485f26-c06f-45a0-be7a-1d5e4dd67e6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 26 "/LED_CTRL")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "296ee6ad-1a5e-4dfd-b074-0b6b284d035b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "salt_booklamp_footprints:1-pin header"
+		(layer "F.Cu")
+		(uuid "8cf122fb-6eaf-4eff-91ac-e87b7d011bdf")
+		(at 210.482 139.632)
+		(property "Reference" "TP_LED_DRV1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "Rescue")
+			(uuid "a4a27683-1210-47b9-af73-ee501fbd32d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "89da467c-d40a-4b61-8236-5a175ac8ea2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0d44c78-693e-484f-b915-f40a2be776dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e759d9dc-5c50-4e53-b4fc-298f673f6282")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/75eb00a7-071e-46f7-9079-bffa7ed6b391")
+		(sheetname "/")
+		(sheetfile "salt_booklamp.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 5.952381 0.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e958989c-c7dd-463d-9416-4f652388219a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "a599c42d-c22f-4e81-a5ba-3da7fcc671b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 24 "/LED_DRV")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "af811d46-1c0e-4af6-93df-b0c4ce7156e4")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "salt_booklamp_footprints:1-pin header"
+		(layer "F.Cu")
+		(uuid "a2889a6a-5907-4f19-a4f5-19611f30a91c")
+		(at 210.482 131.232)
+		(property "Reference" "TP_GND1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "Rescue")
+			(uuid "f5df8c78-8b53-4922-a6fa-8e5fb9d0f71b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "a9ba1224-ae61-4605-8a63-fe9ec501b527")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17280140-f879-43ab-9ab7-e852157ad09d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fa76751-0c9c-4e91-bbb3-908f3d707833")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/52f3dbee-8608-4b42-93eb-4ee9fe4c5a7c")
+		(sheetname "/")
+		(sheetfile "salt_booklamp.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 4.309524 0.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "29165056-4c90-456c-a30d-ed76f6ba3825")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "bfb2af69-7093-403c-9704-4415e21e280f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 14 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "6b5d9fca-2009-4427-ad35-911bd2937195")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "salt_booklamp_footprints:1-pin header"
+		(layer "F.Cu")
+		(uuid "cc8a8d18-48d9-4b18-a02d-2d39505ca542")
+		(at 210.482 133.332)
+		(property "Reference" "TP_~{SWITCH}1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "Rescue")
+			(uuid "1bd24f3a-d97d-494d-bc0e-2b461ceecd27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "236eb3dd-1acc-499a-b42a-2060d3c7f1b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43fdaf15-5d07-48df-9b84-83d7bc588f21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "407fd549-b537-47b3-9ce8-d59efd28b194")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2ed2a901-9af5-4b91-ae57-4ee779d010d5")
+		(sheetname "/")
+		(sheetfile "salt_booklamp.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 5.47619 0.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6920283b-358f-4144-9414-c9c61f44646b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "User.6")
+			(uuid "19df1059-b264-4b7c-9441-457c574158d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 27 "/~{SWITCH}")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "234030e4-e0dc-4c1e-afda-cdacace84088")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "salt_booklamp_footprints:LED_SMS1105UWDW"
 		(locked yes)
 		(layer "F.Cu")
@@ -408,6 +1073,7 @@
 			(at 0.5 -1.8 270)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7775bf98-71c9-4de2-a35d-6f0d0c3a15c0")
 			(effects
 				(font
@@ -565,7 +1231,7 @@
 			(uuid "b65f6a62-d850-488c-a148-41e906460d28")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.1 1.4 270)
+			(at 0 -1.582 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "427e57f3-199b-4dea-8c6f-e7d3207436f8")
@@ -630,7 +1296,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "13a8aea2-47bb-4ce2-a323-7d01b415b631")
+			(uuid "56a7da44-3539-4e7f-858c-671883c26ad5")
 			(effects
 				(font
 					(size 1 1)
@@ -643,7 +1309,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d000c05c-8e8f-4c92-b208-0e7f84219262")
+			(uuid "71813dc3-78f2-4fdb-97c3-444d547b3a19")
 			(effects
 				(font
 					(size 1 1)
@@ -656,7 +1322,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81c3d0f3-0785-4be1-a38c-f0273c584576")
+			(uuid "bf15d042-a8db-4a6c-835e-18a1e87b59a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,7 +1335,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e034177-112c-4f52-9a47-acf9b74480fa")
+			(uuid "3219b04c-4882-4c05-b0ef-9a05439bbea9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,6 +1540,7 @@
 		(property "Reference" "C1"
 			(at 0 1.16 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "15c921a3-fc32-42c2-9599-fce6dff85295")
 			(effects
 				(font
@@ -886,6 +1553,7 @@
 		(property "Value" "1uF"
 			(at 0 -1.16 180)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "c361876f-d983-49e0-a9f1-b56776b87ee9")
 			(effects
 				(font
@@ -1095,6 +1763,7 @@
 		(property "Reference" "R10"
 			(at 0 1.17 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "3b473a41-1f5b-4e88-83d7-91c8dcdb28b5")
 			(effects
 				(font
@@ -1107,6 +1776,7 @@
 		(property "Value" "5k1"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "bd71c43c-ec79-48e9-9e20-5c3fb68379fb")
 			(effects
 				(font
@@ -1316,6 +1986,7 @@
 		(property "Reference" "R2"
 			(at 0 1.17 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "94cf383c-a2b9-4e9f-af8b-2991bc266156")
 			(effects
 				(font
@@ -1328,6 +1999,7 @@
 		(property "Value" "6r8"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "a9f278c9-2eaa-4a50-9348-6dee90c263aa")
 			(effects
 				(font
@@ -1537,6 +2209,7 @@
 		(property "Reference" "C2"
 			(at 0 1.16 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f1f0099e-361b-4be2-8d3f-b689fdde0c1e")
 			(effects
 				(font
@@ -1549,6 +2222,7 @@
 		(property "Value" "1uF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "cea74f6b-3823-43ae-afd0-e53c58bad6b9")
 			(effects
 				(font
@@ -1748,96 +2422,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "salt_booklamp_footprints:1-pin header"
-		(layer "B.Cu")
-		(uuid "23d57bfd-07b0-4dee-87fa-0c039e17f50a")
-		(at 212.282 140.032)
-		(property "Reference" "~{TP_CHG}1"
-			(at 0 0.5 180)
-			(unlocked yes)
-			(layer "Cmts.User")
-			(hide yes)
-			(uuid "4d2eead2-8a13-486c-8ca5-3569e99428ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 -1 180)
-			(unlocked yes)
-			(layer "User.6")
-			(hide yes)
-			(uuid "ba6646dc-32d2-45d8-852e-a2834ddfb993")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "252d372f-d29b-4bec-9a5e-7e43162b7704")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fa75ea11-4e71-40b2-b891-182d9b1584d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/ad3860d9-4489-410e-873e-aaeb9842c174")
-		(sheetname "/")
-		(sheetfile "salt_booklamp.kicad_sch")
-		(attr smd exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at -4.25 0 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "31fd1acd-163b-4e33-85ca-155444367de3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.5 1.5)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers yes)
-			(keep_end_layers yes)
-			(zone_layer_connections)
-			(net 29 "/~{CHARGING}")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "6cd90b06-48d0-44f7-ba61-ef9bc51957a8")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "salt_booklamp_footprints:CL-SB-12C-11"
 		(locked yes)
@@ -2439,96 +3023,6 @@
 			)
 		)
 	)
-	(footprint "salt_booklamp_footprints:1-pin header"
-		(layer "B.Cu")
-		(uuid "2cef6d3f-f7e1-41b3-a784-484819693bdd")
-		(at 217.132 119.227)
-		(property "Reference" "TP_LED_DRV1"
-			(at 0 0.5 180)
-			(unlocked yes)
-			(layer "Cmts.User")
-			(hide yes)
-			(uuid "cfc35a36-298b-4c7b-a613-45633954e450")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 -1 180)
-			(unlocked yes)
-			(layer "User.6")
-			(hide yes)
-			(uuid "67dad688-4b8e-4aa6-ae96-5094334ca29c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8da8f1d1-2566-4c0d-b4f2-602dc7ad3e98")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ce891b8d-3e91-4c98-9a35-3326c0ee5492")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/6e987437-f978-4168-955c-12a59c716963")
-		(sheetname "/")
-		(sheetfile "salt_booklamp.kicad_sch")
-		(attr smd exclude_from_bom)
-		(fp_text user "${REFERENCE}"
-			(at 6 0 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "0855b9ab-2427-4410-a670-f6d816c4276c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.5 1.5)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers yes)
-			(keep_end_layers yes)
-			(zone_layer_connections)
-			(net 24 "/LED_DRV")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "f0946f11-07db-4879-a6e2-67f96dcaa77f")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "salt_booklamp_footprints:BQ21040DBVR"
 		(layer "B.Cu")
 		(uuid "425bca6e-244f-4c47-9d17-bafdfb04bfaa")
@@ -2893,6 +3387,7 @@
 		(property "Reference" "R5"
 			(at 0 1.17 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "925b0a87-3e57-4b77-a65c-6bc9cc62ad4b")
 			(effects
 				(font
@@ -2905,6 +3400,7 @@
 		(property "Value" "10k0"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "48b4018c-a48b-423d-b1a3-9349f16e0aaf")
 			(effects
 				(font
@@ -3114,7 +3610,8 @@
 		(property "Reference" "U1"
 			(at 0 2.55 0)
 			(layer "B.SilkS")
-			(uuid "448765af-9bff-466b-91ee-9e90e23953e4")
+			(hide yes)
+			(uuid "344f18c6-d66e-498d-bd77-f2ac46bae751")
 			(effects
 				(font
 					(size 1 1)
@@ -3126,7 +3623,8 @@
 		(property "Value" "PIC16F15213T-I/MF"
 			(at 0 -2.55 0)
 			(layer "B.Fab")
-			(uuid "9400bfe6-f176-461d-ad3c-b211a864cd53")
+			(hide yes)
+			(uuid "c433ba5e-d7b2-42f9-87e1-31979725a943")
 			(effects
 				(font
 					(size 1 1)
@@ -3140,7 +3638,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "957dcb4e-621c-4cfc-985d-cc2fb1ef975c")
+			(uuid "552e56c9-d412-449b-a21b-b10e881a809c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3652,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0d65a8f8-31a4-4359-8eac-387ad56c074c")
+			(uuid "d5d9b893-5572-4a35-9c2e-5f0d05cfb1c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,12 +4038,12 @@
 	(footprint "salt_booklamp_footprints:TC2050-IDC"
 		(layer "B.Cu")
 		(uuid "6cbc0a23-91e8-441e-94bb-5e9f73a0fa73")
-		(at 228.582 132.782)
+		(at 227.942 135.967)
 		(property "Reference" "P1"
 			(at -3.705 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "88f41959-e081-4b70-b025-9336a67f0abc")
+			(uuid "201216f4-f3c3-442e-b0b0-e89bd7ad2b5f")
 			(effects
 				(font
 					(size 1 1)
@@ -3558,7 +4056,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9b603204-cd09-482f-9002-3323dec266da")
+			(uuid "f1a6084c-0b86-4423-af64-86118485dc19")
 			(effects
 				(font
 					(size 1 1)
@@ -3571,7 +4069,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "22694754-e2c3-4ac8-a50b-b15aca332a0d")
+			(uuid "7c76c8d7-d135-460c-8174-8811fd753267")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +4082,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2b2b63c2-2cdd-4146-913d-285f327f506d")
+			(uuid "778b788c-db4e-4262-b551-de465968a196")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,6 +4256,7 @@
 		(property "Reference" "R6"
 			(at 0 1.17 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "9bcc0ce0-3970-4fe0-8cd2-ee4f59f9ad58")
 			(effects
 				(font
@@ -3770,6 +4269,7 @@
 		(property "Value" "1k2"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "248580f1-c249-4297-bb20-ef3a8027fa11")
 			(effects
 				(font
@@ -4138,6 +4638,7 @@
 		(property "Reference" "C3"
 			(at 0 1.16 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "6df56575-8213-4aa5-b5ee-a8e9a5a37378")
 			(effects
 				(font
@@ -4150,6 +4651,7 @@
 		(property "Value" "1uF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "ca7ce878-adff-4d51-ab76-0ef4a7849ea7")
 			(effects
 				(font
@@ -4359,7 +4861,8 @@
 		(property "Reference" "BATT1"
 			(at 1 2.55 0)
 			(layer "B.SilkS")
-			(uuid "c3c2be42-8194-4dea-b02d-5585074c43e6")
+			(hide yes)
+			(uuid "90dd5ae5-6c2c-4b51-8de9-448189e7460e")
 			(effects
 				(font
 					(size 1 1)
@@ -4371,7 +4874,8 @@
 		(property "Value" "S2B-PH-K-S"
 			(at 1 -7.45 0)
 			(layer "B.Fab")
-			(uuid "41a82e43-23b7-4764-b6e1-9f788b3a85fb")
+			(hide yes)
+			(uuid "8782303c-a7ed-4cf0-bae2-4cf6b8bcd212")
 			(effects
 				(font
 					(size 1 1)
@@ -4385,7 +4889,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5e1895b7-0c2f-4691-b10a-642fea0361a4")
+			(uuid "6e60cc87-c6db-4f4e-9310-59fb4bdf8353")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4903,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fe4e6767-f774-40be-a1c1-433c28297bfd")
+			(uuid "7974bce1-7ab7-4d25-91c6-0db2a8b31668")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,6 +5387,7 @@
 		(property "Reference" "R9"
 			(at 0 1.17 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "9ad52dec-3823-46da-ba60-f367c4a0652f")
 			(effects
 				(font
@@ -4895,6 +5400,7 @@
 		(property "Value" "5k1"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "28c2a2b3-6e9f-4612-8996-c249bc362732")
 			(effects
 				(font
@@ -5104,6 +5610,7 @@
 		(property "Reference" "R7"
 			(at 0 1.17 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "685f39cd-b070-4d3f-a74d-ec04dcf9e152")
 			(effects
 				(font
@@ -5116,6 +5623,7 @@
 		(property "Value" "0r0"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "5bad18e8-3402-4c6b-b503-8a0232f40c96")
 			(effects
 				(font
@@ -5325,6 +5833,7 @@
 		(property "Reference" "R3"
 			(at 0 1.17 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ba7e50fc-e8a2-434c-b706-7392443dcdc5")
 			(effects
 				(font
@@ -5337,6 +5846,7 @@
 		(property "Value" "10k0"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "0b35fcf1-bac9-43d7-9428-e2f59150b03a")
 			(effects
 				(font
@@ -5546,6 +6056,7 @@
 		(property "Reference" "C4"
 			(at 0 1.16 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f0f42b4e-9c69-4ec5-a154-ff3ca8abaf51")
 			(effects
 				(font
@@ -5558,6 +6069,7 @@
 		(property "Value" "1uF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "65419fb0-f872-4b29-8817-af355e07b808")
 			(effects
 				(font
@@ -5767,6 +6279,7 @@
 		(property "Reference" "R1"
 			(at 0 1.17 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f705c7a9-4f20-493b-baf5-44257027c0f1")
 			(effects
 				(font
@@ -5779,6 +6292,7 @@
 		(property "Value" "10k0"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "175ca720-0c95-4a57-84f5-31a4a0bbe1fa")
 			(effects
 				(font
@@ -5988,6 +6502,7 @@
 		(property "Reference" "C5"
 			(at 0 1.16 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "c68b9330-4e48-4f5f-863a-78c5139c463e")
 			(effects
 				(font
@@ -6000,6 +6515,7 @@
 		(property "Value" "1uF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "99a92b5c-f1c0-4d5b-a927-e38168356b4e")
 			(effects
 				(font
@@ -6209,6 +6725,7 @@
 		(property "Reference" "R4"
 			(at 0 1.17 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ee1a29a8-8d09-4f05-b691-195ddf0ff486")
 			(effects
 				(font
@@ -6221,6 +6738,7 @@
 		(property "Value" "10k0"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "8fda2896-5137-4bfd-85b3-d6ce1d424eee")
 			(effects
 				(font
@@ -6430,6 +6948,7 @@
 		(property "Reference" "R8"
 			(at 0 1.17 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "16697e02-237c-4699-8a26-7fed9287de51")
 			(effects
 				(font
@@ -6442,6 +6961,7 @@
 		(property "Value" "0r0"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "04a38466-c308-4378-bdf1-4e4d64240d2e")
 			(effects
 				(font
@@ -6652,7 +7172,7 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "0b059e10-dee5-43bc-bf52-f2e9c5c106a8")
+			(uuid "d7c934b7-2edd-456b-a54c-9d30b8b477dc")
 			(effects
 				(font
 					(size 1 1)
@@ -6666,7 +7186,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "521cac49-c2d1-4cb4-81ff-4a95980d267c")
+			(uuid "5146c8e2-c598-4644-8ab1-6a94f5fc124a")
 			(effects
 				(font
 					(size 1 1)
@@ -6680,7 +7200,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d7f89b09-7834-4216-9e94-357fbace2046")
+			(uuid "7766a9b4-9573-495f-b587-62d940242785")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +7214,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8ea68c90-ebf7-4426-b6e6-16c29d79d659")
+			(uuid "ad709368-005f-43eb-a9a2-379f686351b0")
 			(effects
 				(font
 					(size 1.27 1.27)
