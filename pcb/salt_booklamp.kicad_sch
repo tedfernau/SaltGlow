@@ -3072,6 +3072,12 @@
 		(uuid "378d97d5-8396-45ff-bf75-60d88e6aa7f9")
 	)
 	(junction
+		(at 68.58 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4db68e79-13fa-4e6d-8227-e17f7c8e8da8")
+	)
+	(junction
 		(at 77.47 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3112,6 +3118,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2353d31-5aef-49db-bce9-c6c5faaf9345")
+	)
+	(junction
+		(at 68.58 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3a42c24-3cf9-4b7c-b6ef-0fab5a0708a9")
 	)
 	(junction
 		(at 124.46 87.63)
@@ -3166,6 +3178,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ded8b9fd-ad7a-42cd-acbb-bfd53cb528a6")
+	)
+	(junction
+		(at 68.58 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df45e767-9f06-4ea0-80da-9be7736cef02")
 	)
 	(junction
 		(at 68.58 129.54)
@@ -4099,7 +4117,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 109.22) (xy 69.85 109.22)
+			(xy 64.77 109.22) (xy 68.58 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4646,6 +4664,16 @@
 			(type default)
 		)
 		(uuid "ee7d5e09-bcbf-4a1e-b3d7-da0e21b7909e")
+	)
+	(wire
+		(pts
+			(xy 68.58 109.22) (xy 69.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc33be0-7826-4f0f-aaa1-8f293cd03148")
 	)
 	(wire
 		(pts
@@ -9874,6 +9902,7 @@
 	(symbol
 		(lib_id "salt_booklamp:batt_chg_ic_BQ21040DBVR")
 		(at 77.47 109.22 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -9881,7 +9910,7 @@
 		(dnp no)
 		(uuid "bc695415-f582-4822-8d11-ca9e343ec635")
 		(property "Reference" "U2"
-			(at 78.105 101.6 0)
+			(at 76.835 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9889,7 +9918,7 @@
 			)
 		)
 		(property "Value" "BQ21040DBVR"
-			(at 77.724 115.824 0)
+			(at 77.216 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9898,7 +9927,7 @@
 			)
 		)
 		(property "Footprint" "salt_booklamp_footprints:BQ21040DBVR"
-			(at 77.978 117.094 0)
+			(at 76.962 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9934,7 +9963,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BQ21040DBVR"
-			(at 77.724 115.824 0)
+			(at 77.216 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
