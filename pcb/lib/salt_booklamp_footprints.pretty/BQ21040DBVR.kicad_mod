@@ -1,7 +1,7 @@
 (footprint "BQ21040DBVR"
-	(version 20240617)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.05 -2.45 0)
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9fceb0c3-8ea9-4294-b10e-ccd87268ec98")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -184,7 +171,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "41ad8d7d-4abd-4eb4-bd7e-b3e69e3e03ef")
 	)
@@ -253,7 +240,7 @@
 	(pad "1" smd roundrect
 		(at -0.95 1.3)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(thermal_bridge_angle 45)
 		(uuid "eefbcee0-8544-4fdb-8c93-5be039041136")
@@ -261,7 +248,7 @@
 	(pad "2" smd roundrect
 		(at 0 1.3)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(thermal_bridge_angle 45)
 		(uuid "4438e293-5090-4ac7-bcc3-3d3092d2adb1")
@@ -269,7 +256,7 @@
 	(pad "3" smd roundrect
 		(at 0.95 1.3)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(thermal_bridge_angle 45)
 		(uuid "565d3311-7da8-4fee-a77b-0aedf0f4a70e")
@@ -277,7 +264,7 @@
 	(pad "4" smd roundrect
 		(at 0.95 -1.3)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(thermal_bridge_angle 45)
 		(uuid "283a9e05-d7d7-4bed-903e-605fa3f90482")
@@ -285,7 +272,7 @@
 	(pad "5" smd roundrect
 		(at 0 -1.3)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(thermal_bridge_angle 45)
 		(uuid "9563f635-3067-4e0c-a001-393297a8cc2f")
@@ -293,11 +280,12 @@
 	(pad "6" smd roundrect
 		(at -0.95 -1.3)
 		(size 0.6 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask" "Dwgs.User")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(thermal_bridge_angle 45)
 		(uuid "21a84c7b-e421-4417-98ff-7a8cdc8d75c1")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3D models/BQ21040DBVR.stp"
 		(offset
 			(xyz 0 0 0)
