@@ -3659,6 +3659,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 109.22) (xy 87.63 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad65673-f761-4996-9b0f-c58b683764d0")
+	)
+	(wire
+		(pts
 			(xy 252.73 119.38) (xy 252.73 146.05)
 		)
 		(stroke
@@ -3776,16 +3786,6 @@
 			(type default)
 		)
 		(uuid "5f73d2dc-21f2-47de-9d82-ee7b9fb56258")
-	)
-	(wire
-		(pts
-			(xy 86.36 109.22) (xy 87.63 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fa52a5a-9cdb-4180-8689-0afdb28e40c5")
 	)
 	(wire
 		(pts
@@ -4669,7 +4669,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 113.03) (xy 87.63 109.22)
+			(xy 87.63 109.22) (xy 87.63 113.03)
 		)
 		(stroke
 			(width 0)
@@ -9585,8 +9585,7 @@
 	)
 	(symbol
 		(lib_id "salt_booklamp:batt_chg_ic_BQ21040DBVR")
-		(at 78.74 109.22 0)
-		(mirror y)
+		(at 77.47 109.22 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -9602,7 +9601,7 @@
 			)
 		)
 		(property "Value" "BQ21040DBVR"
-			(at 78.486 115.824 0)
+			(at 77.724 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,7 +9610,7 @@
 			)
 		)
 		(property "Footprint" "salt_booklamp_footprints:BQ21040DBVR"
-			(at 78.232 117.094 0)
+			(at 77.978 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9620,7 +9619,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/lib/Datasheets/bq21040.pdf"
-			(at 78.74 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,7 +9628,7 @@
 			)
 		)
 		(property "Description" "IC BATT CHG LI-ION 1CELL SOT23-6"
-			(at 78.74 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,7 +9637,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/BQ21040DBVR/6036340"
-			(at 78.74 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9647,7 +9646,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BQ21040DBVR"
-			(at 78.486 115.824 0)
+			(at 77.724 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)

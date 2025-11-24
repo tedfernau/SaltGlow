@@ -2043,7 +2043,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES SMD 1.2K OHM 1% 1/10W 0402"
+		(property "Description" "RES SMD 5.1K OHM 0.1% 1/16W 0402"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2057,7 +2057,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part Number" "CR0603-FX-1201ELF"
+		(property "Manufacturer Part Number" "ERA-2AEB512X"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2280,7 +2280,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF0603FT6R80"
+		(property "Manufacturer Part Number" "CRCW04026R80FKED"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3558,7 +3558,7 @@
 			(size 0.6 1.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 11 "+5V_USB")
+			(net 1 "+3.7_VBATT")
 			(pinfunction "VOUT")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -3569,7 +3569,7 @@
 			(size 0.6 1.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 14 "GND")
+			(net 29 "/~{CHARGING}")
 			(pinfunction "~{CHG}")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -3591,7 +3591,7 @@
 			(size 0.6 1.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 29 "/~{CHARGING}")
+			(net 14 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -3602,7 +3602,7 @@
 			(size 0.6 1.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 1 "+3.7_VBATT")
+			(net 11 "+5V_USB")
 			(pinfunction "VIN")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -3681,7 +3681,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF0603FT10K0"
+		(property "Manufacturer Part Number" "RC0402JR-0710KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4473,7 +4473,7 @@
 			(size 0.54 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 10 "Net-(U2-TS)")
+			(net 38 "Net-(U2-ISET)")
 			(pinfunction "1")
 			(pintype "input")
 			(uuid "5214d7b5-000e-421b-9fc2-5190bf9b59c7")
@@ -5455,7 +5455,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES SMD 1.2K OHM 1% 1/10W 0402"
+		(property "Description" "RES SMD 5.1K OHM 0.1% 1/16W 0402"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5469,7 +5469,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part Number" "CR0603-FX-1201ELF"
+		(property "Manufacturer Part Number" "ERA-2AEB512X"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5692,7 +5692,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF0603FT10K0"
+		(property "Manufacturer Part Number" "RC0402JR-0710KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6138,7 +6138,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF0603FT10K0"
+		(property "Manufacturer Part Number" "RC0402JR-0710KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6283,7 +6283,7 @@
 			(size 0.54 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 38 "Net-(U2-ISET)")
+			(net 10 "Net-(U2-TS)")
 			(pinfunction "2")
 			(pintype "output")
 			(uuid "0b79a53b-4351-45d2-8977-4a7f8f30ca36")
@@ -6584,7 +6584,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part Number" "RMCF0603FT10K0"
+		(property "Manufacturer Part Number" "RC0402JR-0710KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6807,7 +6807,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part Number" "RC0603JR-070RL"
+		(property "Manufacturer Part Number" "CRCW04020000Z0ED"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6824,7 +6824,7 @@
 		(path "/ed13b0c4-8da2-4441-8fec-1491e9c39b2d")
 		(sheetname "/")
 		(sheetfile "salt_booklamp.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -9509,6 +9509,14 @@
 		(uuid "54394879-8fa5-46e7-a394-603e072deccb")
 	)
 	(via
+		(at 224.382 145.032)
+		(size 0.5)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "83465803-1e99-4fb5-b4fe-82a398d97640")
+	)
+	(via
 		(at 209.382 146.532)
 		(size 0.5)
 		(drill 0.2)
@@ -9531,14 +9539,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "b5360269-88fe-4107-acfc-447905e64d96")
-	)
-	(via
-		(at 223.432 147.632)
-		(size 0.5)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
-		(net 1)
-		(uuid "bf9e2e64-c208-4213-8151-e45564b88c3e")
 	)
 	(via
 		(at 203.7975 149.2225)
@@ -9571,6 +9571,14 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "196da656-8712-4617-8d4d-5f856d7072b9")
+	)
+	(segment
+		(start 224.382 145.032)
+		(end 224.382 145.293)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "1e01d2ae-67ba-4680-aaf4-6cb5cfbe635f")
 	)
 	(segment
 		(start 206.182 146.007)
@@ -9757,20 +9765,20 @@
 		(uuid "cb4e46a0-0a1b-40c9-9654-7bb85145f6fa")
 	)
 	(via
-		(at 224.382 145.032)
-		(size 0.5)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
-		(net 11)
-		(uuid "83465803-1e99-4fb5-b4fe-82a398d97640")
-	)
-	(via
 		(at 221.925 147.655)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
 		(net 11)
 		(uuid "952dfc5e-479a-4481-bcd3-9b2dbe610e87")
+	)
+	(via
+		(at 223.432 147.632)
+		(size 0.5)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net 11)
+		(uuid "bf9e2e64-c208-4213-8151-e45564b88c3e")
 	)
 	(segment
 		(start 220.7 141.35)
@@ -9779,14 +9787,6 @@
 		(layer "B.Cu")
 		(net 11)
 		(uuid "19b4ab21-bbe4-463d-b23d-ea3ff5a6a98e")
-	)
-	(segment
-		(start 224.382 145.032)
-		(end 224.382 145.293)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 11)
-		(uuid "1e01d2ae-67ba-4680-aaf4-6cb5cfbe635f")
 	)
 	(segment
 		(start 233.982 142.912071)
@@ -10019,14 +10019,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 14)
 		(uuid "eea602dc-3250-4c39-8ddf-0bc25e026199")
-	)
-	(via
-		(at 225.332 145.032)
-		(size 0.5)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
-		(net 14)
-		(uuid "fb40d44d-c235-48a1-8077-b7a0dfccf612")
 	)
 	(segment
 		(start 235.482 143.782)
@@ -10691,6 +10683,14 @@
 		(layer "B.Cu")
 		(net 28)
 		(uuid "fb7558c1-b648-46fb-b203-bca174366718")
+	)
+	(via
+		(at 225.332 145.032)
+		(size 0.5)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net 29)
+		(uuid "fb40d44d-c235-48a1-8077-b7a0dfccf612")
 	)
 	(segment
 		(start 204.35 147.775)
