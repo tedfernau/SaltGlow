@@ -13,7 +13,7 @@
 */
 
 /*
-© [2025] Microchip Technology Inc. and its subsidiaries.
+© [2026] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -42,7 +42,7 @@ void CLOCK_Initialize(void)
         | (0 << _OSCEN_MFOEN_POSN)   // MFOEN disabled
         | (0 << _OSCEN_LFOEN_POSN)   // LFOEN disabled
         | (0 << _OSCEN_ADOEN_POSN);  // ADOEN disabled
-    OSCFRQ = (0 << _OSCFRQ_FRQ_POSN);  // FRQ 1_MHz
+    OSCFRQ = (5 << _OSCFRQ_FRQ_POSN);  // FRQ 32_MHz
     OSCTUNE = (0 << _OSCTUNE_TUN_POSN);  // TUN 0x0
 }
 /**

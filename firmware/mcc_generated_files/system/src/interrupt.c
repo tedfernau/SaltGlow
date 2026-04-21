@@ -11,7 +11,7 @@
 */
 
 /*
-© [2025] Microchip Technology Inc. and its subsidiaries.
+© [2026] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -97,7 +97,6 @@ void INT_SetInterruptHandler(void (* InterruptHandler)(void)){
 
 void INT_DefaultInterruptHandler(void){
     // add your INT interrupt custom code
-
     // or set custom function using INT_SetInterruptHandler()
 }
 /**

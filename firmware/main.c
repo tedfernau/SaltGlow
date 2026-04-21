@@ -13,7 +13,7 @@
 */
 
 /*
-© [2025] Microchip Technology Inc. and its subsidiaries.
+© [2026] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -34,14 +34,16 @@
 */
 #include "mcc_generated_files/system/system.h"
 
-enum brightness {
-    LOW_BRIGHTNESS, 
-    MED_BRIGHTNESS, 
-    HIGH_BRIGHTNESS
-};
+// enum brightness {
+    // LOW_BRIGHTNESS, 
+    // MED_BRIGHTNESS, 
+    // HIGH_BRIGHTNESS
+// };
+
     
 inline void write_brightness_start()
 {   
+    
     LED_CTRL_SetLow();
     __delay_us(3500); //restart  3.5 ms     
 
@@ -49,6 +51,8 @@ inline void write_brightness_start()
     __delay_us(100); //easyscale detect delay 100us
     LED_CTRL_SetLow();
     __delay_us(450); //easyscale detect time 450us min
+
+    
     
 
     // write address
@@ -94,153 +98,66 @@ inline void write_brightness_start()
     __delay_us(8);
      LED_CTRL_SetHigh(); //3.5-300us
     __delay_us(4);
-
-    //write brightness
-
+    
     LED_CTRL_SetLow(); //EOS 3.5-600us
     __delay_us(4);
+
+}
+
+
+inline void write_brightness(uint8_t brightness)
+{
+	write_brightness_start();
     
+        //write brightness
+
     LED_CTRL_SetHigh();
     __delay_us(4); //start time min 3.5us
 
     LED_CTRL_SetLow(); //2 X high
-    __delay_us(8);
+    __delay_us(20);
      LED_CTRL_SetHigh(); //3.5-300us
     __delay_us(4);
 
     LED_CTRL_SetLow(); //2 X high
-    __delay_us(8);
+    __delay_us(20);
      LED_CTRL_SetHigh(); //3.5-300us
     __delay_us(4);
 
     LED_CTRL_SetLow(); //2 X high
-    __delay_us(8);
+    __delay_us(20);
      LED_CTRL_SetHigh(); //3.5-300us
     __delay_us(4);
-}
-
-
-inline void write_brightness(enum brightness brightness_setting)
-{
-    if (brightness_setting == LOW_BRIGHTNESS){
+	
+	for( int i = 4; i >= 0; i--) {
+	
+		if (((brightness & (1 << i )) >> i) == 0 ) {
         
-        write_brightness_start();
-                //brightness = 1
         //write 0
         LED_CTRL_SetLow(); //2 X high
-        __delay_us(8);
+        __delay_us(20);
          LED_CTRL_SetHigh(); //3.5-300us
         __delay_us(4);
-
-        //write 0
-        LED_CTRL_SetLow(); //2 X high
-        __delay_us(8);
-         LED_CTRL_SetHigh(); //3.5-300us
-        __delay_us(4);
-
-        //write 0
-        LED_CTRL_SetLow(); //2 X high
-        __delay_us(8);
-         LED_CTRL_SetHigh(); //3.5-300us
-        __delay_us(4);
-
-        //write 0
-        LED_CTRL_SetLow(); //2 X high
-        __delay_us(8);
-         LED_CTRL_SetHigh(); //3.5-300us
-        __delay_us(4);
-
+		
+		} else {
+			
         //write 1
         LED_CTRL_SetLow(); //3.5-300us
         __delay_us(4); 
          LED_CTRL_SetHigh(); //2 X low
-        __delay_us(8);
-        
-        LED_CTRL_SetLow(); //EOS 3.5-600us
-        __delay_us(4);
-        
-        LED_CTRL_SetHigh();//static high
+        __delay_us(20);
+		
+		}
+                
+
     }
     
-    else if (brightness_setting == MED_BRIGHTNESS){
-        
-        write_brightness_start();
-                //brightness = 15
-            //write 0
-        LED_CTRL_SetLow(); //2 X high
-        __delay_us(8);
-         LED_CTRL_SetHigh(); //3.5-300us
-        __delay_us(4);
-
-         //write 1 
-        LED_CTRL_SetLow(); //3.5-300us
-        __delay_us(4); 
-         LED_CTRL_SetHigh(); //2 X low
-        __delay_us(8);
-
-         //write 1 
-        LED_CTRL_SetLow(); //3.5-300us
-        __delay_us(4); 
-         LED_CTRL_SetHigh(); //2 X low
-        __delay_us(8);
-
-         //write 1 
-        LED_CTRL_SetLow(); //3.5-300us
-        __delay_us(4); 
-         LED_CTRL_SetHigh(); //2 X low
-        __delay_us(8);
-
-         //write 1 
-        LED_CTRL_SetLow(); //3.5-300us
-        __delay_us(4); 
-         LED_CTRL_SetHigh(); //2 X low
-        __delay_us(8);
-
-        LED_CTRL_SetLow(); //EOS 3.5-600us
-        __delay_us(4);
-
-        LED_CTRL_SetHigh();//static high
-    }
-    else if (brightness_setting == HIGH_BRIGHTNESS)
-    {
-        write_brightness_start();
-                //brightness = 31
-         //write 1   
-        LED_CTRL_SetLow(); //3.5-300us
-        __delay_us(4); 
-         LED_CTRL_SetHigh(); //2 X low
-        __delay_us(8);
-
-         //write 1 
-        LED_CTRL_SetLow(); //3.5-300us
-        __delay_us(4); 
-         LED_CTRL_SetHigh(); //2 X low
-        __delay_us(8);
-
-         //write 1 
-        LED_CTRL_SetLow(); //3.5-300us
-        __delay_us(4); 
-         LED_CTRL_SetHigh(); //2 X low
-        __delay_us(8);
-
-         //write 1 
-        LED_CTRL_SetLow(); //3.5-300us
-        __delay_us(4); 
-         LED_CTRL_SetHigh(); //2 X low
-        __delay_us(8);
-
-         //write 1 
-        LED_CTRL_SetLow(); //3.5-300us
-        __delay_us(4); 
-         LED_CTRL_SetHigh(); //2 X low
-        __delay_us(8);
-
-        LED_CTRL_SetLow(); //EOS 3.5-600us
-        __delay_us(4);
-
-        LED_CTRL_SetHigh();//static high
-    }
+    LED_CTRL_SetLow(); //EOS 3.5-600us
+    __delay_us(4);
+    
+    LED_CTRL_SetHigh();//static high
 }
+   
 
 /*
     Main application
@@ -265,9 +182,12 @@ int main(void)
     // Disable the Peripheral Interrupts 
     //INTERRUPT_PeripheralInterruptDisable(); 
 
-    enum brightness current_brightness = LOW_BRIGHTNESS;
-    enum brightness next_brightness = MED_BRIGHTNESS;
+    uint8_t current_brightness = 1;
     bool previous_charging_status = 1;
+	bool breathe_up = 1;
+  
+    
+    
     
     while(1)
     {
@@ -280,28 +200,41 @@ int main(void)
                 
                 __delay_ms(300);
 
-                if (SWITCH_N_GetValue() != 0x1) {
+                while (SWITCH_N_GetValue() != 0x1) {
                     
-                    
-                    if (current_brightness == LOW_BRIGHTNESS){
-                        next_brightness = MED_BRIGHTNESS; 
+					
+                    //write_brightness(current_brightness);
+					
+					if (current_brightness >= 31){
+                        breathe_up = 0; 
                     }
-                    else if (current_brightness == MED_BRIGHTNESS){
-                        next_brightness = HIGH_BRIGHTNESS;
+                    else if(current_brightness <= 0){
+                        breathe_up = 1; 
                     }
-                    else if (current_brightness == HIGH_BRIGHTNESS){
-                        next_brightness = LOW_BRIGHTNESS;
+					
+                    if (breathe_up == 0){
+                        current_brightness--; 
                     }
-                    
-                    current_brightness = next_brightness;
-                    
+                    else if(breathe_up == 1){
+                        current_brightness++;
+                    }
                     write_brightness(current_brightness);
+                    
+                    
+//                    write_brightness(1);
+//                    
+                    __delay_ms(100);
+//                    LED_CTRL_SetLow();
+//                    __delay_ms(500);
+                    
                 }
             
            } else {
                 //LED_CTRL_SetHigh();
-                write_brightness(current_brightness);
-                
+                for(int i = 1; i <= current_brightness; i++){
+                write_brightness(i);
+                __delay_ms(10);
+                }
                     
                     // quick switch, change brightness
                     //write_brightness(current_brightness);

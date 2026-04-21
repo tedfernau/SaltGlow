@@ -13,7 +13,7 @@
 */
 
 /*
-© [2025] Microchip Technology Inc. and its subsidiaries.
+© [2026] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -37,7 +37,7 @@
 
 //CONFIG1
 #pragma config FEXTOSC = OFF     // External Oscillator Mode Selection bits->Oscillator not enabled
-#pragma config RSTOSC = HFINTOSC_1MHZ     // Power-up Default Value for COSC bits->HFINTOSC (1 MHz)
+#pragma config RSTOSC = HFINTOSC_32MHZ     // Power-up Default Value for COSC bits->HFINTOSC (32 MHz)
 #pragma config CLKOUTEN = OFF     // Clock Out Enable bit->CLKOUT function is disabled; I/O function on RA4
 #pragma config VDDAR = HI     // VDD Range Analog Calibration Selection bit->Internal analog systems are calibrated for operation between VDD = 2.3V - 5.5V
 

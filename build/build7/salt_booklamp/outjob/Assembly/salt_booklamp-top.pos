@@ -1,0 +1,17 @@
+### Footprint positions - created on 2025-09-02T11:28:22-0700 ###
+### Printed by KiCad version 9.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref            Val             Package                PosX       PosY       Rot  Side
+LED1             SMS1105UWDW     LED_SMS1105UWDW    -21.2820    13.0000  -90.0000  top
+LED2             SMS1105UWDW     LED_SMS1105UWDW    -21.2820   -13.0000  -90.0000  top
+LED3             SMS1105UWDW     LED_SMS1105UWDW    -21.2820     0.0500  -90.0000  top
+P1               PIC-TC2050-IDC  TC2050-IDC         -16.0470    -8.6030    0.0000  top
+TP_3.7V_BATT1    ~               1-pin_header        -5.3570    -0.9930    0.0000  top
+TP_5V_USB1       ~               1-pin_header        -5.3570     1.1070    0.0000  top
+TP_GND1          ~               1-pin_header        -5.3570    -3.0930    0.0000  top
+TP_LED_CTRL1     ~               1-pin_header        -5.3570    -9.3930    0.0000  top
+TP_LED_DRV1      ~               1-pin_header        -5.3570   -11.4930    0.0000  top
+TP_~{CHARGING}1  ~               1-pin_header        -5.3570    -7.2930    0.0000  top
+TP_~{SWITCH}1    ~               1-pin_header        -5.3570    -5.1930    0.0000  top
+## End

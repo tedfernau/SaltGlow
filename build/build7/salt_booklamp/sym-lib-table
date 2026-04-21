@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "salt_booklamp")(type "KiCad")(uri "${KIPRJMOD}/lib/salt_booklamp.kicad_sym")(options "")(descr ""))
+  (lib (name "GymTimer")(type "KiCad")(uri "C:/Users/fernau/OneDrive - F5, Inc/Desktop/non-work/LunchTimeProjects/GymTimer/GymTimer/pcb/lib/GymTimer.kicad_sym")(options "")(descr ""))
+)

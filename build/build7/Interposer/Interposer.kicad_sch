@@ -300,16 +300,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 124.46) (xy 161.29 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b644177-e6cb-41f0-9346-b7512ac8ee9d")
-	)
-	(wire
-		(pts
 			(xy 102.87 101.6) (xy 107.95 101.6)
 		)
 		(stroke
@@ -327,6 +317,16 @@
 			(type default)
 		)
 		(uuid "1ec0743d-6934-45b8-8555-149b2285f514")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 135.89 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7f78dc-e22d-453a-8917-781565f67401")
 	)
 	(wire
 		(pts
@@ -370,13 +370,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 99.06) (xy 152.4 99.06)
+			(xy 100.33 87.63) (xy 100.33 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ddf504d-8d83-4683-a6cd-5195b188ae06")
+		(uuid "49bc6fc8-bba0-4925-9963-1c3729480890")
 	)
 	(wire
 		(pts
@@ -430,6 +430,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 87.63) (xy 157.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ed5ea5-3779-42f1-a03b-cc331f696af3")
+	)
+	(wire
+		(pts
 			(xy 102.87 121.92) (xy 102.87 101.6)
 		)
 		(stroke
@@ -440,33 +450,73 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 124.46) (xy 161.29 124.46)
+			(xy 157.48 99.06) (xy 152.4 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9eb6023-77cd-498c-b7ab-b7dfa6fc4621")
+		(uuid "d1d5e67c-6109-44b2-be5c-51ef3d916358")
 	)
 	(wire
 		(pts
-			(xy 124.46 99.06) (xy 135.89 99.06)
+			(xy 100.33 87.63) (xy 157.48 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e510678a-2ae8-40ae-b5b7-593d2741a650")
+		(uuid "f4d1c858-6a32-4648-b5d9-0c867f5dc939")
 	)
-	(wire
-		(pts
-			(xy 100.33 99.06) (xy 100.33 124.46)
+	(label "GND"
+		(at 102.87 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "7ce4afa9-45d4-43e0-b38d-cfbe76563b17")
+	)
+	(label "CHG_N"
+		(at 125.73 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(uuid "ffee591f-d55e-4081-aa7e-66a6d065e733")
+		(uuid "ac55c090-e2a1-44a5-961c-72549053b671")
+	)
+	(label "Vout"
+		(at 125.73 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0e2f72e-09a7-43b6-9f3a-739a85096e5c")
+	)
+	(label "TS"
+		(at 125.73 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db243dd3-6006-494d-b34b-ab55385c9ca4")
+	)
+	(label "ISET"
+		(at 101.6 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8235e67-eed1-492c-b006-fc5ecb439970")
 	)
 	(symbol
 		(lib_name "Power_2")

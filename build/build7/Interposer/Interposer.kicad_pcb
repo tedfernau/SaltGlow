@@ -34,6 +34,45 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -79,11 +118,11 @@
 	)
 	(net 0 "")
 	(net 1 "+5V_USB")
-	(net 2 "Net-(U1-VIN)")
-	(net 3 "Net-(U1-TS)")
-	(net 4 "Net-(U1-GND)")
-	(net 5 "Net-(U1-~{CHG})")
-	(net 6 "Net-(U1-ISET)")
+	(net 2 "/Vout")
+	(net 3 "/ISET")
+	(net 4 "/CHG_N")
+	(net 5 "/GND")
+	(net 6 "/TS")
 	(footprint "salt_booklamp_footprints:BQ21040DBVR"
 		(layer "F.Cu")
 		(uuid "cf29e4bd-76f9-49d5-89c7-10e91a0010f5")
@@ -93,7 +132,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b7c05c50-b831-4b12-ac99-111b1276bb60")
+			(uuid "144aa2ea-e557-4464-a15f-76b76c17a63c")
 			(effects
 				(font
 					(size 1 1)
@@ -105,7 +144,7 @@
 			(at 0 1.8 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "beea4bf4-a25b-4bee-945c-3bda61fab25b")
+			(uuid "7e72efdb-164c-47e9-9b06-a31ccc8f0f75")
 			(effects
 				(font
 					(size 1 1)
@@ -118,7 +157,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40222cbe-612c-40e8-9b9f-511fd2a0249f")
+			(uuid "bff04db9-1813-4f8a-b998-7d9f18907875")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131,7 +170,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8332424-f44e-4a9e-bd62-4a7695214059")
+			(uuid "494f5de0-a711-4f5a-921d-9bd4bfbf8aa3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -357,7 +396,7 @@
 			(size 0.6 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 6 "Net-(U1-ISET)")
+			(net 6 "/TS")
 			(pinfunction "TS")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -368,7 +407,7 @@
 			(size 0.6 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 2 "Net-(U1-VIN)")
+			(net 2 "/Vout")
 			(pinfunction "VOUT")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -379,7 +418,7 @@
 			(size 0.6 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 4 "Net-(U1-GND)")
+			(net 4 "/CHG_N")
 			(pinfunction "~{CHG}")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -390,7 +429,7 @@
 			(size 0.6 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 3 "Net-(U1-TS)")
+			(net 3 "/ISET")
 			(pinfunction "ISET")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -401,7 +440,7 @@
 			(size 0.6 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 5 "Net-(U1-~{CHG})")
+			(net 5 "/GND")
 			(pinfunction "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -440,7 +479,7 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "76b34632-ca29-40e5-9ebd-4a10be74f742")
+			(uuid "82f1e988-595d-4339-90a0-5ffe1ebef11e")
 			(effects
 				(font
 					(size 1 1)
@@ -453,7 +492,7 @@
 			(at 0 -1.8 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "6db55a75-f924-427c-b27e-1d35ac18b590")
+			(uuid "60cc337d-c8f7-4fc8-b705-65198a5102d5")
 			(effects
 				(font
 					(size 1 1)
@@ -467,7 +506,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4e85ef89-e838-41a8-a02b-b376580153dc")
+			(uuid "3f59a2d7-299a-4793-a395-20b26545b922")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -481,7 +520,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8527c7f0-d780-4157-ae05-f74527c83293")
+			(uuid "d9a3bb95-a3a1-44af-9a4d-d68d7095f3b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -711,7 +750,7 @@
 			(size 0.6 1.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 3 "Net-(U1-TS)")
+			(net 3 "/ISET")
 			(pinfunction "TS")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -733,7 +772,7 @@
 			(size 0.6 1.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 5 "Net-(U1-~{CHG})")
+			(net 5 "/GND")
 			(pinfunction "~{CHG}")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -744,7 +783,7 @@
 			(size 0.6 1.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 6 "Net-(U1-ISET)")
+			(net 6 "/TS")
 			(pinfunction "ISET")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -755,7 +794,7 @@
 			(size 0.6 1.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 4 "Net-(U1-GND)")
+			(net 4 "/CHG_N")
 			(pinfunction "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -766,7 +805,7 @@
 			(size 0.6 1.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.08333333333)
-			(net 2 "Net-(U1-VIN)")
+			(net 2 "/Vout")
 			(pinfunction "VIN")
 			(pintype "passive")
 			(thermal_bridge_angle 45)

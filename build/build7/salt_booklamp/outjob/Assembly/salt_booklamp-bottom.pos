@@ -1,0 +1,27 @@
+### Footprint positions - created on 2025-09-02T11:28:22-0700 ###
+### Printed by KiCad version 9.0.4
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                       Package                                       PosX       PosY       Rot  Side
+BATT1     S2B-PH-K-S                JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal    16.6000   -19.4500    0.0000  bottom
+C1        1uF                       C_0402_1005Metric                          -2.3570   -18.1430   90.0000  bottom
+C2        1uF                       C_0402_1005Metric                          18.2900   -21.5000  180.0000  bottom
+C3        1uF                       C_0402_1005Metric                         -17.9000   -21.5000    0.0000  bottom
+C4        1uF                       C_0402_1005Metric                         -19.8570   -15.5430   90.0000  bottom
+C5        1uF                       C_0402_1005Metric                         -13.8070   -19.3180  -90.0000  bottom
+J1        USB-C31-S-RA-CS1E-BK-T/R  USB-C31-S-RA-CS1E-BK                        8.4500   -19.6000  180.0000  bottom
+L1        22uH                      ind_VLS3012CX                             -14.9000   -16.5000   90.0000  bottom
+R1        10k0                      R_0402_1005Metric                          -1.0420   -14.6180  180.0000  bottom
+R2        6r8                       R_0402_1005Metric                         -20.8070   -15.5180   90.0000  bottom
+R3        10k0                      R_0402_1005Metric                         -21.7696   -17.3328   90.0000  bottom
+R4        10k0                      R_0402_1005Metric                         -20.3404   -16.9678  180.0000  bottom
+R5        10k0                      R_0402_1005Metric                         -15.4070   -18.8680    0.0000  bottom
+R6        1k2                       R_0402_1005Metric                           0.9780   -14.6180  180.0000  bottom
+R8        0r0                       R_0402_1005Metric                         -21.7561   -15.4334   90.0000  bottom
+R9        5k1                       R_0402_1005Metric                           0.3930   -20.3280  -90.0000  bottom
+R10       5k1                       R_0402_1005Metric                           1.4180   -20.3280  -90.0000  bottom
+S1        CL-SB-12C-12              CL-SB-12C-11                               -8.2000   -19.1500  180.0000  bottom
+U1        PIC16F15213T-I/MF         DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm      -18.9345   -19.2155    0.0000  bottom
+U2        BQ21040DBVR               BQ21040DBVR                                 0.1000   -17.3000    0.0000  bottom
+U3        TPS61158DRVR              6-WDFN_-_TPS61158DRVR                     -18.1000   -16.0000   90.0000  bottom
+## End

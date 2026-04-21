@@ -1,0 +1,152 @@
+(footprint "cap_0603"
+	(version 20240617)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.3 -1.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c53b3ad4-54fa-4868-a757-f97ad6877191")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "cap_0603"
+		(at 0.1 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3b2b12fc-4525-485d-a613-f82ce562341e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09056231-c0d8-43e1-895b-6b0521f4ffe0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6be7f038-68ba-4254-a6de-86091f9a28a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "caab7b9f-88be-4b13-bb00-2af2bf446d16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.4)
+		(end 0 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fda8092c-ac69-4366-b3da-f7aaeba858c9")
+	)
+	(fp_rect
+		(start -1.2 -0.5)
+		(end 1.2 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fc2851b5-074f-4e9a-aa4a-ea5010f97eb6")
+	)
+	(fp_rect
+		(start -1.1 -0.4)
+		(end 1.1 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "fceb5673-9215-431d-b039-1caa03fa5935")
+	)
+	(fp_rect
+		(start -0.3 -0.4)
+		(end 0.3 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "b8b77414-f7a0-44cc-8e79-a743f356a5c3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f2d2250a-7255-46f1-bcab-0e1441653f88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.7 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c1192ad4-e3c3-417a-a741-e5ae422392ff")
+	)
+	(pad "2" smd roundrect
+		(at 0.7 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a620ef04-9e46-413a-b97e-7e32467f969e")
+	)
+	(model "C:/Users/fernau/OneDrive - F5, Inc/Desktop/non-work/LunchTimeProjects/kicad_generic_parts_lib/generic_parts_lib/3D_Body_Models/cap_0603.step"
+		(offset
+			(xyz 0 0 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+)

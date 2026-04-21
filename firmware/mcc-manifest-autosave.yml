@@ -2,20 +2,20 @@
 
 manifest_file_version: 1.0.0
 project: salt_booklamp
-creation_date: 2025-02-23T22:00:02.895-08:00[America/Los_Angeles]
-operating_system: Windows 10
+creation_date: 2026-02-24T10:15:41.340-08:00[America/Los_Angeles]
+operating_system: Windows 11
 mcc_mode: IDE
-mcc_mode_version: v6.20
+mcc_mode_version: v6.25
 device_name: PIC16F15213
-compiler: XC8 3.00
-mcc_version: 5.5.1
+compiler: XC8 3.10
+mcc_version: 5.5.2
 mcc_core_version: 5.7.1
 content_manager_version: 5.0.1
 is_mcc_offline: false
 is_using_prerelease_versions: false
 mcc_content_registries: https://registry.npmjs.org/
 device_library: {library_class: com.microchip.mcc.melody.Library, name: Melody, version: 2.8.0}
-packs: {name: PIC16F1xxxx_DFP, version: 1.26.410}
+packs: {name: PIC16F1xxxx_DFP, version: 1.29.444}
 modules:
 - {name: '@mchp-mcc/main-manager', type: MELODY, version: 3.1.2}
 - {name: '@mchp-mcc/pic-8bit', type: MELODY, version: 5.28.4}
