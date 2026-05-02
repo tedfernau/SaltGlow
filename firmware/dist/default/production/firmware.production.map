@@ -6,10 +6,10 @@ Linker command line:
   --edf=C:\Program Files\Microchip\xc8\v3.10\pic\dat\20250813170317_en.msgs \
   -cn -h+dist/default/production\firmware.production.sym \
   --cmf=dist/default/production\firmware.production.cmf -z -Q16F15213 \
-  -oC:\Users\fernau\AppData\Local\Temp\xcAspos.0\driver_tmp_3.o \
+  -oC:\Users\fernau\AppData\Local\Temp\xcAsjmk.0\driver_tmp_3.o \
   --defsym=__MPLAB_BUILD=1 --fixupoverflow=error \
   -Mdist/default/production/firmware.production.map \
-  --md=C:\Users\fernau\AppData\Local\Temp\xcAspos.0\driver_tmp_0.dat -E1 \
+  --md=C:\Users\fernau\AppData\Local\Temp\xcAsjmk.0\driver_tmp_0.dat -E1 \
   -ver=XC8 Compiler -ACODE=00h-07FFh -ASTRCODE=00h-07FFh \
   -ASTRING=00h-0FFhx8 -ACONST=00h-0FFhx8 -AENTRY=00h-0FFhx8 \
   -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh \
@@ -41,7 +41,7 @@ Linker command line:
   -DSTRING=2 -DCONST=2 -DENTRY=2 \
   -preset_vec=00h,intentry=04h,sivt,init,end_init -ppowerup=CODE \
   -pcinit=CODE -pfunctab=ENTRY -k \
-  C:\Users\fernau\AppData\Local\Temp\xcAspos.0\driver_tmp_12.o \
+  C:\Users\fernau\AppData\Local\Temp\xcAsjmk.0\driver_tmp_12.o \
   dist/default/production\firmware.production.o 
 
 Object code version is 3.11
@@ -51,7 +51,7 @@ Machine type is 16F15213
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\fernau\AppData\Local\Temp\xcAspos.0\driver_tmp_12.o
+C:\Users\fernau\AppData\Local\Temp\xcAsjmk.0\driver_tmp_12.o
                 end_init                             24       24        1        8       0
                 reset_vec                             0        0        1        0       0
                 config                             8007     8007        5        0       4
@@ -59,26 +59,27 @@ dist/default/production\firmware.production.o
                 cinit                                25       25        3        8       0
                 intentry                              4        4       20        8       0
                 config                             8007     8007        5        0       4
-                text18                              267      267        1        8       0
-                text17                              230      230        D        8       0
-                text16                              25F      25F        6        8       0
-                text15                              266      266        1        8       0
-                text14                              214      214        F        8       0
-                text13                              265      265        1        8       0
-                text12                              205      205        F        8       0
-                text11                              1F4      1F4       11        8       0
-                text9                               259      259        6        8       0
-                text8                               253      253        6        8       0
-                text7                               223      223        D        8       0
-                text6                               24D      24D        6        8       0
-                text5                               247      247        6        8       0
-                text4                               1CD      1CD       27        8       0
-                text3                               23D      23D        A        8       0
-                text2                                D8       D8       85        8       0
-                text1                               15D      15D       70        8       0
-                maintext                             28       28       B0        8       0
-                cstackCOMMON                         70       70        D       70       1
-                nvBANK0                              20       20        6       20       1
+                text18                              27F      27F        1        8       0
+                text17                              24C      24C        C        8       0
+                text16                              268      268        6        8       0
+                text15                              27E      27E        1        8       0
+                text14                              231      231        E        8       0
+                text13                              27D      27D        1        8       0
+                text12                              223      223        E        8       0
+                text11                              212      212       11        8       0
+                text9                               262      262        6        8       0
+                text8                               278      278        5        8       0
+                text7                               23F      23F        D        8       0
+                text6                               273      273        5        8       0
+                text5                               26E      26E        5        8       0
+                text4                               1EB      1EB       27        8       0
+                text3                               258      258        A        8       0
+                text2                                F6       F6       85        8       0
+                text1                               17B      17B       70        8       0
+                maintext                             28       28       CE        8       0
+                cstackBANK0                          20       20        7       20       1
+                cstackCOMMON                         70       70        8       70       1
+                nvCOMMON                             78       78        6       70       1
 
 TOTAL           Name                               Link     Load   Length     Space
         CLASS   CODE           
@@ -86,24 +87,24 @@ TOTAL           Name                               Link     Load   Length     Sp
                 cinit                                25       25        3         0
                 intentry                              4        4       20         0
                 reset_vec                             0        0        1         0
-                text18                              267      267        1         0
-                text17                              230      230        D         0
-                text16                              25F      25F        6         0
-                text15                              266      266        1         0
-                text14                              214      214        F         0
-                text13                              265      265        1         0
-                text12                              205      205        F         0
-                text11                              1F4      1F4       11         0
-                text9                               259      259        6         0
-                text8                               253      253        6         0
-                text7                               223      223        D         0
-                text6                               24D      24D        6         0
-                text5                               247      247        6         0
-                text4                               1CD      1CD       27         0
-                text3                               23D      23D        A         0
-                text2                                D8       D8       85         0
-                text1                               15D      15D       70         0
-                maintext                             28       28       B0         0
+                text18                              27F      27F        1         0
+                text17                              24C      24C        C         0
+                text16                              268      268        6         0
+                text15                              27E      27E        1         0
+                text14                              231      231        E         0
+                text13                              27D      27D        1         0
+                text12                              223      223        E         0
+                text11                              212      212       11         0
+                text9                               262      262        6         0
+                text8                               278      278        5         0
+                text7                               23F      23F        D         0
+                text6                               273      273        5         0
+                text5                               26E      26E        5         0
+                text4                               1EB      1EB       27         0
+                text3                               258      258        A         0
+                text2                                F6       F6       85         0
+                text1                               17B      17B       70         0
+                maintext                             28       28       CE         0
 
         CLASS   STRCODE        
 
@@ -114,10 +115,11 @@ TOTAL           Name                               Link     Load   Length     Sp
         CLASS   ENTRY          
 
         CLASS   COMMON         
-                cstackCOMMON                         70       70        D         1
+                cstackCOMMON                         70       70        8         1
+                nvCOMMON                             78       78        6         1
 
         CLASS   BANK0          
-                nvBANK0                              20       20        6         1
+                cstackBANK0                          20       20        7         1
 
         CLASS   BANK1          
 
@@ -396,27 +398,26 @@ TOTAL           Name                               Link     Load   Length     Sp
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
 
                 reset_vec                      000000  000001  000001         0       0  CODE        2
-                intentry                       000004  000264  000268         8       0  CODE        2
-                nvBANK0                        000020  000006  000026        20       1  BANK0       1
-                cstackCOMMON                   000070  00000D  00007D        70       1  COMMON      1
+                intentry                       000004  00027C  000280         8       0  CODE        2
+                cstackBANK0                    000020  000007  000027        20       1  BANK0       1
+                cstackCOMMON                   000070  00000E  00007E        70       1  COMMON      1
 
 
 UNUSED ADDRESS RANGES
 
         Name                Unused          Largest block    Delta
-        BANK0            00026-0006F              4A           1
+        BANK0            00027-0006F              49           1
         BANK1            000A0-000EF              50           1
         BANK2            00120-0016F              50           1
         BIGRAM           02000-020EF              F0           1
         CODE             00001-00003               3           2
-                         00268-007FF             598
-        COMMON           0007D-0007D               1           1
+                         00280-007FF             580
         CONST            00001-00003               3           2
-                         00268-007FF             100
+                         00280-007FF             100
         ENTRY            00001-00003               3           2
-                         00268-007FF             100
+                         00280-007FF             100
         IDLOC            08000-08003               4           2
-        RAM              00026-0006F              4A           1
+        RAM              00027-0006F              49           1
                          000A0-000EF              50
                          00120-0016F              50
         SFR0             00000-0001F              20           1
@@ -484,9 +485,9 @@ UNUSED ADDRESS RANGES
         SFR8             00400-0046F              70           1
         SFR9             00480-004EF              70           1
         STRCODE          00001-00003               3           2
-                         00268-007FF             598
+                         00280-007FF             580
         STRING           00001-00003               3           2
-                         00268-007FF             100
+                         00280-007FF             100
 
                                   Symbol Table
 
@@ -494,21 +495,21 @@ CHARGING_N_SetInterruptHandler@InterruptHandler cstackCOMMON 00070
 INT_SetInterruptHandler@InterruptHandler        cstackCOMMON 00070
 SWITCH_N_SetInterruptHandler@InterruptHandler   cstackCOMMON 00070
 _ANSELA                                         (abs)        01F38
-_CHARGING_N_DefaultInterruptHandler             text15       00266
-_CHARGING_N_ISR                                 text14       00214
-_CHARGING_N_InterruptHandler                    nvBANK0      00022
-_CHARGING_N_SetInterruptHandler                 text6        0024D
-_CLOCK_Initialize                               text9        00259
+_CHARGING_N_DefaultInterruptHandler             text15       0027E
+_CHARGING_N_ISR                                 text14       00231
+_CHARGING_N_InterruptHandler                    nvCOMMON     0007A
+_CHARGING_N_SetInterruptHandler                 text6        00273
+_CLOCK_Initialize                               text9        00262
 _INLVLA                                         (abs)        01F3C
 _INTCONbits                                     (abs)        0000B
-_INTERRUPT_Initialize                           text7        00223
+_INTERRUPT_Initialize                           text7        0023F
 _INTERRUPT_InterruptManager                     intentry     00004
 _INTPPS                                         (abs)        01E90
-_INT_CallBack                                   text17       00230
-_INT_DefaultInterruptHandler                    text18       00267
-_INT_ISR                                        text16       0025F
-_INT_InterruptHandler                           nvBANK0      00024
-_INT_SetInterruptHandler                        text8        00253
+_INT_CallBack                                   text17       0024C
+_INT_DefaultInterruptHandler                    text18       0027F
+_INT_ISR                                        text16       00268
+_INT_InterruptHandler                           nvCOMMON     0007C
+_INT_SetInterruptHandler                        text8        00278
 _IOCAF                                          (abs)        01F3F
 _IOCAFbits                                      (abs)        01F3F
 _IOCAN                                          (abs)        01F3E
@@ -520,16 +521,16 @@ _OSCEN                                          (abs)        00891
 _OSCFRQ                                         (abs)        00893
 _OSCTUNE                                        (abs)        00892
 _PIE0bits                                       (abs)        00716
-_PIN_MANAGER_IOC                                text11       001F4
-_PIN_MANAGER_Initialize                         text4        001CD
+_PIN_MANAGER_IOC                                text11       00212
+_PIN_MANAGER_Initialize                         text4        001EB
 _PIR0bits                                       (abs)        0070C
 _PORTAbits                                      (abs)        0000C
 _SLRCONA                                        (abs)        01F3B
-_SWITCH_N_DefaultInterruptHandler               text13       00265
-_SWITCH_N_ISR                                   text12       00205
-_SWITCH_N_InterruptHandler                      nvBANK0      00020
-_SWITCH_N_SetInterruptHandler                   text5        00247
-_SYSTEM_Initialize                              text3        0023D
+_SWITCH_N_DefaultInterruptHandler               text13       0027D
+_SWITCH_N_ISR                                   text12       00223
+_SWITCH_N_InterruptHandler                      nvCOMMON     00078
+_SWITCH_N_SetInterruptHandler                   text5        0026E
+_SYSTEM_Initialize                              text3        00258
 _TRISA                                          (abs)        00012
 _WPUA                                           (abs)        01F39
 __H__absolute__                                 __absolute__ 00000
@@ -604,6 +605,7 @@ __Hclrtext                                      clrtext      00000
 __Hcode                                         code         00000
 __Hcommon                                       common       00000
 __Hconfig                                       config       0800C
+__HcstackBANK0                                  cstackBANK0  00000
 __HcstackCOMMON                                 cstackCOMMON 00000
 __Heeprom_data                                  eeprom_data  00000
 __Hend_init                                     end_init     00025
@@ -612,7 +614,7 @@ __Hheap                                         heap         00000
 __Hinit                                         init         00024
 __Hintentry                                     intentry     00024
 __Hmaintext                                     maintext     00000
-__HnvBANK0                                      nvBANK0      00000
+__HnvCOMMON                                     nvCOMMON     00000
 __Hpowerup                                      powerup      00000
 __Hram                                          ram          00000
 __Hreset_vec                                    reset_vec    00001
@@ -681,8 +683,8 @@ __Hsfr7                                         sfr7         00000
 __Hsfr8                                         sfr8         00000
 __Hsfr9                                         sfr9         00000
 __Hsivt                                         sivt         00024
-__Hspace_0                                      (abs)        00268
-__Hspace_1                                      (abs)        0007D
+__Hspace_0                                      (abs)        00280
+__Hspace_1                                      (abs)        0007E
 __Hspace_2                                      (abs)        00000
 __Hspace_3                                      (abs)        00000
 __Hspace_4                                      (abs)        10013
@@ -761,6 +763,7 @@ __Lclrtext                                      clrtext      00000
 __Lcode                                         code         00000
 __Lcommon                                       common       00000
 __Lconfig                                       config       00000
+__LcstackBANK0                                  cstackBANK0  00000
 __LcstackCOMMON                                 cstackCOMMON 00000
 __Leeprom_data                                  eeprom_data  00000
 __Lend_init                                     end_init     00024
@@ -769,7 +772,7 @@ __Lheap                                         heap         00000
 __Linit                                         init         00024
 __Lintentry                                     intentry     00004
 __Lmaintext                                     maintext     00000
-__LnvBANK0                                      nvBANK0      00000
+__LnvCOMMON                                     nvCOMMON     00000
 __Lpowerup                                      powerup      00000
 __Lram                                          ram          00000
 __Lreset_vec                                    reset_vec    00000
@@ -846,8 +849,8 @@ __Lspace_4                                      (abs)        00000
 __Lstack                                        stack        00000
 __Lstrings                                      strings      00000
 __Ltext                                         text         00000
-__S0                                            (abs)        00268
-__S1                                            (abs)        0007D
+__S0                                            (abs)        00280
+__S1                                            (abs)        0007E
 ___heap_hi                                      (abs)        00000
 ___heap_lo                                      (abs)        00000
 ___int_sp                                       stack        00000
@@ -859,51 +862,52 @@ ___stack_hi                                     stack        00000
 ___stack_lo                                     stack        00000
 ___stackhi                                      (abs)        00000
 ___stacklo                                      (abs)        00000
-__end_of_CHARGING_N_DefaultInterruptHandler     text15       00267
-__end_of_CHARGING_N_ISR                         text14       00223
-__end_of_CHARGING_N_SetInterruptHandler         text6        00253
-__end_of_CLOCK_Initialize                       text9        0025F
-__end_of_INTERRUPT_Initialize                   text7        00230
+__end_of_CHARGING_N_DefaultInterruptHandler     text15       0027F
+__end_of_CHARGING_N_ISR                         text14       0023F
+__end_of_CHARGING_N_SetInterruptHandler         text6        00278
+__end_of_CLOCK_Initialize                       text9        00268
+__end_of_INTERRUPT_Initialize                   text7        0024C
 __end_of_INTERRUPT_InterruptManager             intentry     00024
-__end_of_INT_CallBack                           text17       0023D
-__end_of_INT_DefaultInterruptHandler            text18       00268
-__end_of_INT_ISR                                text16       00265
-__end_of_INT_SetInterruptHandler                text8        00259
-__end_of_PIN_MANAGER_IOC                        text11       00205
-__end_of_PIN_MANAGER_Initialize                 text4        001F4
-__end_of_SWITCH_N_DefaultInterruptHandler       text13       00266
-__end_of_SWITCH_N_ISR                           text12       00214
-__end_of_SWITCH_N_SetInterruptHandler           text5        0024D
-__end_of_SYSTEM_Initialize                      text3        00247
+__end_of_INT_CallBack                           text17       00258
+__end_of_INT_DefaultInterruptHandler            text18       00280
+__end_of_INT_ISR                                text16       0026E
+__end_of_INT_SetInterruptHandler                text8        0027D
+__end_of_PIN_MANAGER_IOC                        text11       00223
+__end_of_PIN_MANAGER_Initialize                 text4        00212
+__end_of_SWITCH_N_DefaultInterruptHandler       text13       0027E
+__end_of_SWITCH_N_ISR                           text12       00231
+__end_of_SWITCH_N_SetInterruptHandler           text5        00273
+__end_of_SYSTEM_Initialize                      text3        00262
 __end_of__initialization                        cinit        00025
-__end_of_main                                   maintext     000D8
-__end_of_write_brightness                       text1        001CD
-__end_of_write_brightness_start                 text2        0015D
+__end_of_main                                   maintext     000F6
+__end_of_write_brightness                       text1        001EB
+__end_of_write_brightness_start                 text2        0017B
 __initialization                                cinit        00025
+__pcstackBANK0                                  cstackBANK0  00020
 __pcstackCOMMON                                 cstackCOMMON 00070
 __pintentry                                     intentry     00004
 __pmaintext                                     maintext     00028
-__pnvBANK0                                      nvBANK0      00020
-__ptext1                                        text1        0015D
-__ptext11                                       text11       001F4
-__ptext12                                       text12       00205
-__ptext13                                       text13       00265
-__ptext14                                       text14       00214
-__ptext15                                       text15       00266
-__ptext16                                       text16       0025F
-__ptext17                                       text17       00230
-__ptext18                                       text18       00267
-__ptext2                                        text2        000D8
-__ptext3                                        text3        0023D
-__ptext4                                        text4        001CD
-__ptext5                                        text5        00247
-__ptext6                                        text6        0024D
-__ptext7                                        text7        00223
-__ptext8                                        text8        00253
-__ptext9                                        text9        00259
+__pnvCOMMON                                     nvCOMMON     00078
+__ptext1                                        text1        0017B
+__ptext11                                       text11       00212
+__ptext12                                       text12       00223
+__ptext13                                       text13       0027D
+__ptext14                                       text14       00231
+__ptext15                                       text15       0027E
+__ptext16                                       text16       00268
+__ptext17                                       text17       0024C
+__ptext18                                       text18       0027F
+__ptext2                                        text2        000F6
+__ptext3                                        text3        00258
+__ptext4                                        text4        001EB
+__ptext5                                        text5        0026E
+__ptext6                                        text6        00273
+__ptext7                                        text7        0023F
+__ptext8                                        text8        00278
+__ptext9                                        text9        00262
 _main                                           maintext     00028
-_write_brightness                               text1        0015D
-_write_brightness_start                         text2        000D8
+_write_brightness                               text1        0017B
+_write_brightness_start                         text2        000F6
 btemp                                           (abs)        0007E
 btemp0                                          (abs)        0007E
 btemp1                                          (abs)        0007F
@@ -916,10 +920,11 @@ intlevel3                                       functab      00000
 intlevel4                                       functab      00000
 intlevel5                                       functab      00000
 ltemp0a                                         (abs)        00080
-main@breathe_up                                 cstackCOMMON 0007B
-main@current_brightness                         cstackCOMMON 0007C
-main@i                                          cstackCOMMON 00078
-main@previous_charging_status                   cstackCOMMON 0007A
+main@current_brightness                         cstackBANK0  00026
+main@i                                          cstackBANK0  00021
+main@i_307                                      cstackBANK0  00023
+main@next_brightness                            cstackBANK0  00020
+main@previous_charging_status                   cstackBANK0  00025
 reset_vec                                       reset_vec    00000
 start                                           init         00024
 start_initialization                            cinit        00025
@@ -934,26 +939,26 @@ MODULE INFORMATION
 
 Module		Function		Class		Link	Load	Size
 mcc_generated_files/system/src/interrupt.c
-		_INT_DefaultInterruptHandler		CODE           	0267	0000	1
-		_INT_SetInterruptHandler		CODE           	0253	0000	6
-		_INTERRUPT_Initialize		CODE           	0223	0000	13
-		_INT_CallBack  		CODE           	0230	0000	13
+		_INT_DefaultInterruptHandler		CODE           	027F	0000	1
+		_INT_SetInterruptHandler		CODE           	0278	0000	5
+		_INTERRUPT_Initialize		CODE           	023F	0000	13
+		_INT_CallBack  		CODE           	024C	0000	12
 		_INTERRUPT_InterruptManager		CODE           	0004	0000	32
-		_INT_ISR       		CODE           	025F	0000	6
+		_INT_ISR       		CODE           	0268	0000	6
 
-mcc_generated_files/system/src/interrupt.c estimated size: 71
+mcc_generated_files/system/src/interrupt.c estimated size: 69
 
 mcc_generated_files/system/src/pins.c
-		_PIN_MANAGER_Initialize		CODE           	01CD	0000	39
-		_CHARGING_N_SetInterruptHandler		CODE           	024D	0000	6
-		_SWITCH_N_DefaultInterruptHandler		CODE           	0265	0000	1
-		_CHARGING_N_DefaultInterruptHandler		CODE           	0266	0000	1
-		_CHARGING_N_ISR		CODE           	0214	0000	15
-		_PIN_MANAGER_IOC		CODE           	01F4	0000	17
-		_SWITCH_N_SetInterruptHandler		CODE           	0247	0000	6
-		_SWITCH_N_ISR  		CODE           	0205	0000	15
+		_PIN_MANAGER_Initialize		CODE           	01EB	0000	39
+		_CHARGING_N_SetInterruptHandler		CODE           	0273	0000	5
+		_SWITCH_N_DefaultInterruptHandler		CODE           	027D	0000	1
+		_CHARGING_N_DefaultInterruptHandler		CODE           	027E	0000	1
+		_CHARGING_N_ISR		CODE           	0231	0000	14
+		_PIN_MANAGER_IOC		CODE           	0212	0000	17
+		_SWITCH_N_SetInterruptHandler		CODE           	026E	0000	5
+		_SWITCH_N_ISR  		CODE           	0223	0000	14
 
-mcc_generated_files/system/src/pins.c estimated size: 100
+mcc_generated_files/system/src/pins.c estimated size: 96
 
 shared
 		__initialization		CODE           	0025	0000	1
@@ -961,19 +966,19 @@ shared
 shared estimated size: 1
 
 mcc_generated_files/system/src/clock.c
-		_CLOCK_Initialize		CODE           	0259	0000	6
+		_CLOCK_Initialize		CODE           	0262	0000	6
 
 mcc_generated_files/system/src/clock.c estimated size: 6
 
 main.c
-		_main          		CODE           	0028	0000	176
-		_write_brightness_start		CODE           	00D8	0000	133
-		_write_brightness		CODE           	015D	0000	112
+		_main          		CODE           	0028	0000	206
+		_write_brightness_start		CODE           	00F6	0000	133
+		_write_brightness		CODE           	017B	0000	112
 
-main.c estimated size: 421
+main.c estimated size: 451
 
 mcc_generated_files/system/src/system.c
-		_SYSTEM_Initialize		CODE           	023D	0000	10
+		_SYSTEM_Initialize		CODE           	0258	0000	10
 
 mcc_generated_files/system/src/system.c estimated size: 10
 

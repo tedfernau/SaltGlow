@@ -5143,7 +5143,6 @@ int main(void)
 
 
     uint8_t current_brightness = 1;
-    uint8_t next_brightness = 1;
     _Bool previous_charging_status = 1;
  _Bool breathe_up = 1;
 
@@ -5161,30 +5160,30 @@ int main(void)
 
                 _delay((unsigned long)((300)*(32000000/4000.0)));
 
-
-                if (PORTAbits.RA5 != 0x1) {
-
+                while (PORTAbits.RA5 != 0x1) {
 
 
 
-                    if (current_brightness == 31){
-                        next_brightness = 1;
+
+     if (current_brightness >= 31){
+                        breathe_up = 0;
                     }
-                    else if(current_brightness ==16){
-                        next_brightness = 31;
+                    else if(current_brightness <= 0){
+                        breathe_up = 1;
                     }
-                    else if(current_brightness ==1){
-                        next_brightness = 16;
+
+                    if (breathe_up == 0){
+                        current_brightness--;
                     }
-                    current_brightness = next_brightness;
+                    else if(breathe_up == 1){
+                        current_brightness++;
+                    }
+                    write_brightness(current_brightness);
 
 
-                    for(int i = 1; i <= current_brightness; i++){
-                    write_brightness(i);
-                    _delay((unsigned long)((10)*(32000000/4000.0)));
-                    }
-# 246 "main.c"
-                    _delay((unsigned long)((50)*(32000000/4000.0)));
+
+
+                    _delay((unsigned long)((25)*(32000000/4000.0)));
 
 
 

@@ -1,0 +1,834 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"494 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8\pic\include\proc/pic16f15213.h
+[s S37 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S37 . LATA0 LATA1 LATA2 LATA3 LATA4 LATA5 ]
+"493
+[u S36 `S37 1 ]
+[n S36 . . ]
+"503
+[v _LATAbits `VS36 ~T0 @X0 0 e@24 ]
+[v F202 `(v ~T0 @X0 1 tf1`ul ]
+"20 C:\Program Files\Microchip\xc8\v3.10\pic\include/builtins.h
+[v __delay `JF202 ~T0 @X0 0 e ]
+[p i __delay ]
+[p mainexit ]
+"53 ./mcc_generated_files/system/system.h
+[v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
+"361 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8\pic\include\proc/pic16f15213.h
+[s S31 :1 `uc 1 :5 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . INTEDG . PEIE GIE ]
+"360
+[u S30 `S31 1 ]
+[n S30 . . ]
+"368
+[v _INTCONbits `VS30 ~T0 @X0 0 e@11 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\include/builtins.h
+[v ___nop `(v ~T0 @X0 0 ef ]
+[p i ___nop ]
+"394 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8\pic\include\proc/pic16f15213.h
+[s S33 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S33 . RA0 RA1 RA2 RA3 RA4 RA5 ]
+"393
+[u S32 `S33 1 ]
+[n S32 . . ]
+"403
+[v _PORTAbits `VS32 ~T0 @X0 0 e@12 ]
+"52 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8\pic\include\proc/pic16f15213.h
+[; <" INDF0 equ 00h ;# ">
+"72
+[; <" INDF1 equ 01h ;# ">
+"92
+[; <" PCL equ 02h ;# ">
+"112
+[; <" STATUS equ 03h ;# ">
+"175
+[; <" FSR0L equ 04h ;# ">
+"195
+[; <" FSR0H equ 05h ;# ">
+"219
+[; <" FSR1L equ 06h ;# ">
+"239
+[; <" FSR1H equ 07h ;# ">
+"259
+[; <" BSR equ 08h ;# ">
+"317
+[; <" WREG equ 09h ;# ">
+"337
+[; <" PCLATH equ 0Ah ;# ">
+"357
+[; <" INTCON equ 0Bh ;# ">
+"390
+[; <" PORTA equ 0Ch ;# ">
+"440
+[; <" TRISA equ 012h ;# ">
+"490
+[; <" LATA equ 018h ;# ">
+"540
+[; <" CPCON equ 09Ah ;# ">
+"573
+[; <" ADRES equ 09Bh ;# ">
+"580
+[; <" ADRESL equ 09Bh ;# ">
+"600
+[; <" ADRESH equ 09Ch ;# ">
+"620
+[; <" ADCON0 equ 09Dh ;# ">
+"681
+[; <" ADCON1 equ 09Eh ;# ">
+"735
+[; <" ADACT equ 09Fh ;# ">
+"763
+[; <" RC1REG equ 0119h ;# ">
+"783
+[; <" TX1REG equ 011Ah ;# ">
+"803
+[; <" SP1BRG equ 011Bh ;# ">
+"810
+[; <" SP1BRGL equ 011Bh ;# ">
+"830
+[; <" SP1BRGH equ 011Ch ;# ">
+"850
+[; <" RC1STA equ 011Dh ;# ">
+"912
+[; <" TX1STA equ 011Eh ;# ">
+"974
+[; <" BAUD1CON equ 011Fh ;# ">
+"1026
+[; <" SSP1BUF equ 018Ch ;# ">
+"1046
+[; <" SSP1ADD equ 018Dh ;# ">
+"1166
+[; <" SSP1MSK equ 018Eh ;# ">
+"1236
+[; <" SSP1STAT equ 018Fh ;# ">
+"1600
+[; <" SSP1CON1 equ 0190h ;# ">
+"1720
+[; <" SSP1CON2 equ 0191h ;# ">
+"1907
+[; <" SSP1CON3 equ 0192h ;# ">
+"1969
+[; <" TMR1 equ 020Ch ;# ">
+"1976
+[; <" TMR1L equ 020Ch ;# ">
+"2096
+[; <" TMR1H equ 020Dh ;# ">
+"2216
+[; <" T1CON equ 020Eh ;# ">
+"2221
+[; <" TMR1CON equ 020Eh ;# ">
+"2438
+[; <" T1GCON equ 020Fh ;# ">
+"2443
+[; <" TMR1GCON equ 020Fh ;# ">
+"2688
+[; <" T1GATE equ 0210h ;# ">
+"2693
+[; <" TMR1GATE equ 0210h ;# ">
+"2854
+[; <" T1CLK equ 0211h ;# ">
+"2859
+[; <" TMR1CLK equ 0211h ;# ">
+"2863
+[; <" PR1 equ 0211h ;# ">
+"3064
+[; <" T2TMR equ 028Ch ;# ">
+"3069
+[; <" TMR2 equ 028Ch ;# ">
+"3118
+[; <" T2PR equ 028Dh ;# ">
+"3123
+[; <" PR2 equ 028Dh ;# ">
+"3172
+[; <" T2CON equ 028Eh ;# ">
+"3318
+[; <" T2HLT equ 028Fh ;# ">
+"3446
+[; <" T2CLKCON equ 0290h ;# ">
+"3514
+[; <" T2RST equ 0291h ;# ">
+"3594
+[; <" CCPR1 equ 030Ch ;# ">
+"3601
+[; <" CCPR1L equ 030Ch ;# ">
+"3621
+[; <" CCPR1H equ 030Dh ;# ">
+"3641
+[; <" CCP1CON equ 030Eh ;# ">
+"3768
+[; <" CCP1CAP equ 030Fh ;# ">
+"3824
+[; <" CCPR2 equ 0310h ;# ">
+"3831
+[; <" CCPR2L equ 0310h ;# ">
+"3851
+[; <" CCPR2H equ 0311h ;# ">
+"3871
+[; <" CCP2CON equ 0312h ;# ">
+"3998
+[; <" CCP2CAP equ 0313h ;# ">
+"4054
+[; <" PWM3DC equ 0314h ;# ">
+"4061
+[; <" PWM3DCL equ 0314h ;# ">
+"4082
+[; <" PWM3DCH equ 0315h ;# ">
+"4102
+[; <" PWM3CON equ 0316h ;# ">
+"4158
+[; <" PWM4DC equ 0318h ;# ">
+"4165
+[; <" PWM4DCL equ 0318h ;# ">
+"4186
+[; <" PWM4DCH equ 0319h ;# ">
+"4206
+[; <" PWM4CON equ 031Ah ;# ">
+"4262
+[; <" TMR0L equ 059Ch ;# ">
+"4267
+[; <" TMR0 equ 059Ch ;# ">
+"4400
+[; <" TMR0H equ 059Dh ;# ">
+"4405
+[; <" PR0 equ 059Dh ;# ">
+"4654
+[; <" T0CON0 equ 059Eh ;# ">
+"4778
+[; <" T0CON1 equ 059Fh ;# ">
+"4920
+[; <" PIR0 equ 070Ch ;# ">
+"4953
+[; <" PIR1 equ 070Dh ;# ">
+"5015
+[; <" PIR2 equ 070Eh ;# ">
+"5048
+[; <" PIE0 equ 0716h ;# ">
+"5081
+[; <" PIE1 equ 0717h ;# ">
+"5143
+[; <" PIE2 equ 0718h ;# ">
+"5176
+[; <" WDTCON equ 080Ch ;# ">
+"5238
+[; <" BORCON equ 0811h ;# ">
+"5265
+[; <" PCON0 equ 0813h ;# ">
+"5322
+[; <" PCON1 equ 0814h ;# ">
+"5343
+[; <" NVMADR equ 081Ah ;# ">
+"5350
+[; <" NVMADRL equ 081Ah ;# ">
+"5370
+[; <" NVMADRH equ 081Bh ;# ">
+"5390
+[; <" NVMDAT equ 081Ch ;# ">
+"5397
+[; <" NVMDATL equ 081Ch ;# ">
+"5417
+[; <" NVMDATH equ 081Dh ;# ">
+"5437
+[; <" NVMCON1 equ 081Eh ;# ">
+"5493
+[; <" NVMCON2 equ 081Fh ;# ">
+"5513
+[; <" OSCCON equ 088Eh ;# ">
+"5578
+[; <" OSCSTAT equ 0890h ;# ">
+"5624
+[; <" OSCEN equ 0891h ;# ">
+"5664
+[; <" OSCTUNE equ 0892h ;# ">
+"5722
+[; <" OSCFRQ equ 0893h ;# ">
+"5762
+[; <" FVRCON equ 090Ch ;# ">
+"5821
+[; <" PPSLOCK equ 01E8Fh ;# ">
+"5841
+[; <" INTPPS equ 01E90h ;# ">
+"5901
+[; <" T0CKIPPS equ 01E91h ;# ">
+"5961
+[; <" T1CKIPPS equ 01E92h ;# ">
+"6027
+[; <" T1GPPS equ 01E93h ;# ">
+"6093
+[; <" T2INPPS equ 01E9Ch ;# ">
+"6159
+[; <" CCP1PPS equ 01EA1h ;# ">
+"6225
+[; <" CCP2PPS equ 01EA2h ;# ">
+"6291
+[; <" ADACTPPS equ 01EC3h ;# ">
+"6357
+[; <" SSP1CLKPPS equ 01EC5h ;# ">
+"6423
+[; <" SSP1DATPPS equ 01EC6h ;# ">
+"6489
+[; <" SSP1SSPPS equ 01EC7h ;# ">
+"6555
+[; <" RX1PPS equ 01ECBh ;# ">
+"6560
+[; <" RX1DTPPS equ 01ECBh ;# ">
+"6564
+[; <" RXPPS equ 01ECBh ;# ">
+"6747
+[; <" CK1PPS equ 01ECCh ;# ">
+"6752
+[; <" TX1CKPPS equ 01ECCh ;# ">
+"6756
+[; <" CKPPS equ 01ECCh ;# ">
+"6939
+[; <" RA0PPS equ 01F10h ;# ">
+"6997
+[; <" RA1PPS equ 01F11h ;# ">
+"7055
+[; <" RA2PPS equ 01F12h ;# ">
+"7113
+[; <" RA4PPS equ 01F14h ;# ">
+"7171
+[; <" RA5PPS equ 01F15h ;# ">
+"7229
+[; <" ANSELA equ 01F38h ;# ">
+"7274
+[; <" WPUA equ 01F39h ;# ">
+"7324
+[; <" ODCONA equ 01F3Ah ;# ">
+"7369
+[; <" SLRCONA equ 01F3Bh ;# ">
+"7414
+[; <" INLVLA equ 01F3Ch ;# ">
+"7464
+[; <" IOCAP equ 01F3Dh ;# ">
+"7514
+[; <" IOCAN equ 01F3Eh ;# ">
+"7564
+[; <" IOCAF equ 01F3Fh ;# ">
+"7614
+[; <" STATUS_SHAD equ 01FE4h ;# ">
+"7634
+[; <" WREG_SHAD equ 01FE5h ;# ">
+"7654
+[; <" BSR_SHAD equ 01FE6h ;# ">
+"7674
+[; <" PCLATH_SHAD equ 01FE7h ;# ">
+"7694
+[; <" FSR0_SHAD equ 01FE8h ;# ">
+"7701
+[; <" FSR0L_SHAD equ 01FE8h ;# ">
+"7721
+[; <" FSR0H_SHAD equ 01FE9h ;# ">
+"7741
+[; <" FSR1L_SHAD equ 01FEAh ;# ">
+"7761
+[; <" FSR1H_SHAD equ 01FEBh ;# ">
+"7781
+[; <" STKPTR equ 01FEDh ;# ">
+"7825
+[; <" TOSL equ 01FEEh ;# ">
+"7895
+[; <" TOSH equ 01FEFh ;# ">
+[v F2995 `(v ~T0 @X0 1 tf ]
+"44 main.c
+[v _write_brightness_start `TF2995 ~T0 @X0 1 e ]
+"45
+{
+[e :U _write_brightness_start ]
+[f ]
+"47
+[e :U 439 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 438 ]
+"48
+[e ( __delay (1 -> * -> -> 3500 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"50
+[e :U 442 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 441 ]
+"51
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"52
+[e :U 445 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 444 ]
+"53
+[e ( __delay (1 -> * -> -> 450 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"59
+[e :U 448 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 447 ]
+"60
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"62
+[e :U 451 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 450 ]
+"63
+[e ( __delay (1 -> * -> -> 8 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"64
+[e :U 454 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 453 ]
+"65
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"67
+[e :U 457 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 456 ]
+"68
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"69
+[e :U 460 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 459 ]
+"70
+[e ( __delay (1 -> * -> -> 8 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"72
+[e :U 463 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 462 ]
+"73
+[e ( __delay (1 -> * -> -> 8 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"74
+[e :U 466 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 465 ]
+"75
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"77
+[e :U 469 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 468 ]
+"78
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"79
+[e :U 472 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 471 ]
+"80
+[e ( __delay (1 -> * -> -> 8 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"82
+[e :U 475 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 474 ]
+"83
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"84
+[e :U 478 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 477 ]
+"85
+[e ( __delay (1 -> * -> -> 8 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"87
+[e :U 481 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 480 ]
+"88
+[e ( __delay (1 -> * -> -> 8 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"89
+[e :U 484 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 483 ]
+"90
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"92
+[e :U 487 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 486 ]
+"93
+[e ( __delay (1 -> * -> -> 8 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"94
+[e :U 490 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 489 ]
+"95
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"97
+[e :U 493 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 492 ]
+"98
+[e ( __delay (1 -> * -> -> 8 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"99
+[e :U 496 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 495 ]
+"100
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"102
+[e :U 499 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 498 ]
+"103
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"105
+[e :UE 436 ]
+}
+[v F2997 `(v ~T0 @X0 1 tf1`uc ]
+"108
+[v _write_brightness `TF2997 ~T0 @X0 1 e ]
+"109
+{
+[e :U _write_brightness ]
+"108
+[v _brightness `uc ~T0 @X0 1 r1 ]
+"109
+[f ]
+"110
+[e ( _write_brightness_start ..  ]
+"114
+[e :U 503 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 502 ]
+"115
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"117
+[e :U 506 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 505 ]
+"118
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"119
+[e :U 509 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 508 ]
+"120
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"122
+[e :U 512 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 511 ]
+"123
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"124
+[e :U 515 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 514 ]
+"125
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"127
+[e :U 518 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 517 ]
+"128
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"129
+[e :U 521 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 520 ]
+"130
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"132
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 4 `i ]
+[e $ >= _i -> 0 `i 522  ]
+[e $U 523  ]
+[e :U 522 ]
+{
+"134
+[e $ ! == >> & -> _brightness `i << -> 1 `i _i _i -> 0 `i 525  ]
+{
+"137
+[e :U 528 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 527 ]
+"138
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"139
+[e :U 531 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 530 ]
+"140
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"142
+}
+[e $U 532  ]
+[e :U 525 ]
+{
+"145
+[e :U 535 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 534 ]
+"146
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"147
+[e :U 538 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 537 ]
+"148
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"150
+}
+[e :U 532 ]
+"153
+}
+[e -- _i -> 1 `i ]
+[e $ >= _i -> 0 `i 522  ]
+[e :U 523 ]
+}
+"155
+[e :U 541 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 540 ]
+"156
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 32000000 `l `d .4000000.0 `ul ]
+"158
+[e :U 544 ]
+{
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 543 ]
+"159
+[e :UE 500 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"166
+[v _main `(i ~T0 @X0 1 ef ]
+"167
+{
+[e :U _main ]
+[f ]
+"168
+[e ( _SYSTEM_Initialize ..  ]
+"174
+[e = . . _INTCONbits 0 3 -> -> 1 `i `uc ]
+"180
+[e = . . _INTCONbits 0 2 -> -> 1 `i `uc ]
+"185
+[v _current_brightness `uc ~T0 @X0 1 a ]
+[e = _current_brightness -> -> 1 `i `uc ]
+"186
+[v _previous_charging_status `a ~T0 @X0 1 a ]
+[e = _previous_charging_status -> -> 1 `i `a ]
+"187
+[v _breathe_up `a ~T0 @X0 1 a ]
+[e = _breathe_up -> -> 1 `i `a ]
+"192
+[e :U 547 ]
+"193
+{
+"195
+[; <" sleep ;# ">
+"196
+[e ( ___nop ..  ]
+"197
+[e $ ! == -> . . _PORTAbits 0 5 `i -> 1 `i 549  ]
+{
+"199
+[e :U 552 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 551 ]
+"201
+[e ( __delay (1 -> * -> -> 300 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+"203
+[e $U 553  ]
+[e :U 554 ]
+{
+"208
+[e $ ! >= -> _current_brightness `i -> 31 `i 556  ]
+{
+"209
+[e = _breathe_up -> -> 0 `i `a ]
+"210
+}
+[e $U 557  ]
+"211
+[e :U 556 ]
+[e $ ! <= -> _current_brightness `i -> 0 `i 558  ]
+{
+"212
+[e = _breathe_up -> -> 1 `i `a ]
+"213
+}
+[e :U 558 ]
+[e :U 557 ]
+"215
+[e $ ! == -> _breathe_up `i -> 0 `i 559  ]
+{
+"216
+[e -- _current_brightness -> -> 1 `i `uc ]
+"217
+}
+[e $U 560  ]
+"218
+[e :U 559 ]
+[e $ ! == -> _breathe_up `i -> 1 `i 561  ]
+{
+"219
+[e ++ _current_brightness -> -> 1 `i `uc ]
+"220
+}
+[e :U 561 ]
+[e :U 560 ]
+"221
+[e ( _write_brightness (1 _current_brightness ]
+"226
+[e ( __delay (1 -> * -> -> 25 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+"230
+}
+[e :U 553 ]
+"203
+[e $ != -> . . _PORTAbits 0 5 `i -> 1 `i 554  ]
+[e :U 555 ]
+"232
+}
+[e $U 562  ]
+[e :U 549 ]
+{
+"234
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 1 `i ]
+[e $U 566  ]
+[e :U 563 ]
+{
+"235
+[e ( _write_brightness (1 -> _i `uc ]
+"236
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+"237
+}
+[e ++ _i -> 1 `i ]
+[e :U 566 ]
+[e $ <= _i -> _current_brightness `i 563  ]
+[e :U 564 ]
+}
+"243
+}
+[e :U 562 ]
+"248
+[e $ ! == -> . . _PORTAbits 0 4 `i -> 1 `i 567  ]
+{
+"249
+[e $ ! == -> _previous_charging_status `i -> 0 `i 568  ]
+{
+"250
+[e = _previous_charging_status -> -> 1 `i `a ]
+"251
+}
+[e :U 568 ]
+"252
+}
+[e $U 569  ]
+[e :U 567 ]
+{
+"254
+[e $ ! == -> _previous_charging_status `i -> 1 `i 570  ]
+{
+"255
+[e = _previous_charging_status -> -> 0 `i `a ]
+"257
+[e $ ! == -> . . _PORTAbits 0 5 `i -> 1 `i 571  ]
+{
+"258
+[e ( _write_brightness (1 _current_brightness ]
+"259
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+"260
+[e :U 574 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 573 ]
+"261
+}
+[e $U 575  ]
+[e :U 571 ]
+{
+"262
+[e :U 578 ]
+{
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 577 ]
+"263
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+"264
+[e ( _write_brightness (1 _current_brightness ]
+"265
+}
+[e :U 575 ]
+"266
+}
+[e :U 570 ]
+"267
+}
+[e :U 569 ]
+"273
+}
+[e :U 546 ]
+[e $U 547  ]
+[e :U 548 ]
+"274
+[e :UE 545 ]
+}

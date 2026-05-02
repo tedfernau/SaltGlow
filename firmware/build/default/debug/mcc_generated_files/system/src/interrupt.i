@@ -1,4 +1,4 @@
-# 1 "main.c"
+# 1 "mcc_generated_files/system/src/interrupt.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 295 "<built-in>" 3
@@ -6,10 +6,24 @@
 # 1 "<built-in>" 2
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/language_support.h" 1 3
 # 2 "<built-in>" 2
-# 1 "main.c" 2
-# 35 "main.c"
-# 1 "./mcc_generated_files/system/system.h" 1
-# 39 "./mcc_generated_files/system/system.h"
+# 1 "mcc_generated_files/system/src/interrupt.c" 2
+# 34 "mcc_generated_files/system/src/interrupt.c"
+# 1 "mcc_generated_files/system/src/../../system/interrupt.h" 1
+# 85 "mcc_generated_files/system/src/../../system/interrupt.h"
+void INTERRUPT_Initialize (void);
+# 139 "mcc_generated_files/system/src/../../system/interrupt.h"
+void INT_ISR(void);
+# 148 "mcc_generated_files/system/src/../../system/interrupt.h"
+void INT_CallBack(void);
+# 157 "mcc_generated_files/system/src/../../system/interrupt.h"
+void INT_SetInterruptHandler(void (* InterruptHandler)(void));
+# 166 "mcc_generated_files/system/src/../../system/interrupt.h"
+extern void (*INT_InterruptHandler)(void);
+# 175 "mcc_generated_files/system/src/../../system/interrupt.h"
+void INT_DefaultInterruptHandler(void);
+# 35 "mcc_generated_files/system/src/interrupt.c" 2
+# 1 "mcc_generated_files/system/src/../../system/system.h" 1
+# 39 "mcc_generated_files/system/src/../../system/system.h"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.h" 1 3
 # 18 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -4918,19 +4932,19 @@ extern __bank0 unsigned char __resetbits;
 extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 # 29 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.h" 2 3
-# 40 "./mcc_generated_files/system/system.h" 2
+# 40 "mcc_generated_files/system/src/../../system/system.h" 2
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include\\c99/stdbool.h" 1 3
-# 42 "./mcc_generated_files/system/system.h" 2
-# 1 "./mcc_generated_files/system/config_bits.h" 1
-# 39 "./mcc_generated_files/system/config_bits.h"
-# 1 "./mcc_generated_files/system/../system/clock.h" 1
-# 49 "./mcc_generated_files/system/../system/clock.h"
+# 42 "mcc_generated_files/system/src/../../system/system.h" 2
+# 1 "mcc_generated_files/system/src/../../system/config_bits.h" 1
+# 39 "mcc_generated_files/system/src/../../system/config_bits.h"
+# 1 "mcc_generated_files/system/src/../../system/../system/clock.h" 1
+# 49 "mcc_generated_files/system/src/../../system/../system/clock.h"
 void CLOCK_Initialize(void);
-# 40 "./mcc_generated_files/system/config_bits.h" 2
-# 43 "./mcc_generated_files/system/system.h" 2
-# 1 "./mcc_generated_files/system/../system/pins.h" 1
-# 117 "./mcc_generated_files/system/../system/pins.h"
+# 40 "mcc_generated_files/system/src/../../system/config_bits.h" 2
+# 43 "mcc_generated_files/system/src/../../system/system.h" 2
+# 1 "mcc_generated_files/system/src/../../system/../system/pins.h" 1
+# 117 "mcc_generated_files/system/src/../../system/../system/pins.h"
 void PIN_MANAGER_Initialize (void);
 
 
@@ -4948,11 +4962,11 @@ void PIN_MANAGER_IOC(void);
 
 
 void CHARGING_N_ISR(void);
-# 143 "./mcc_generated_files/system/../system/pins.h"
+# 143 "mcc_generated_files/system/src/../../system/../system/pins.h"
 void CHARGING_N_SetInterruptHandler(void (* InterruptHandler)(void));
-# 154 "./mcc_generated_files/system/../system/pins.h"
+# 154 "mcc_generated_files/system/src/../../system/../system/pins.h"
 extern void (*CHARGING_N_InterruptHandler)(void);
-# 165 "./mcc_generated_files/system/../system/pins.h"
+# 165 "mcc_generated_files/system/src/../../system/../system/pins.h"
 void CHARGING_N_DefaultInterruptHandler(void);
 
 
@@ -4962,274 +4976,72 @@ void CHARGING_N_DefaultInterruptHandler(void);
 
 
 void SWITCH_N_ISR(void);
-# 183 "./mcc_generated_files/system/../system/pins.h"
+# 183 "mcc_generated_files/system/src/../../system/../system/pins.h"
 void SWITCH_N_SetInterruptHandler(void (* InterruptHandler)(void));
-# 194 "./mcc_generated_files/system/../system/pins.h"
+# 194 "mcc_generated_files/system/src/../../system/../system/pins.h"
 extern void (*SWITCH_N_InterruptHandler)(void);
-# 205 "./mcc_generated_files/system/../system/pins.h"
+# 205 "mcc_generated_files/system/src/../../system/../system/pins.h"
 void SWITCH_N_DefaultInterruptHandler(void);
-# 44 "./mcc_generated_files/system/system.h" 2
-# 1 "./mcc_generated_files/system/../system/interrupt.h" 1
-# 85 "./mcc_generated_files/system/../system/interrupt.h"
-void INTERRUPT_Initialize (void);
-# 139 "./mcc_generated_files/system/../system/interrupt.h"
-void INT_ISR(void);
-# 148 "./mcc_generated_files/system/../system/interrupt.h"
-void INT_CallBack(void);
-# 157 "./mcc_generated_files/system/../system/interrupt.h"
-void INT_SetInterruptHandler(void (* InterruptHandler)(void));
-# 166 "./mcc_generated_files/system/../system/interrupt.h"
-extern void (*INT_InterruptHandler)(void);
-# 175 "./mcc_generated_files/system/../system/interrupt.h"
-void INT_DefaultInterruptHandler(void);
-# 45 "./mcc_generated_files/system/system.h" 2
-
-
-
-
-
-
-
-
+# 44 "mcc_generated_files/system/src/../../system/system.h" 2
+# 53 "mcc_generated_files/system/src/../../system/system.h"
 void SYSTEM_Initialize(void);
-# 36 "main.c" 2
+# 36 "mcc_generated_files/system/src/interrupt.c" 2
 
 
+void (*INT_InterruptHandler)(void);
 
-
-
-
-
-
-__attribute__((inline)) void write_brightness_start()
+void INTERRUPT_Initialize (void)
 {
 
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((3500)*(32000000/4000000.0)));
 
-    do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((100)*(32000000/4000000.0)));
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((450)*(32000000/4000000.0)));
+    (PIR0bits.INTF = 0);
+    (INTCONbits.INTEDG = 1);
 
-
-
-
-
-    do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((8)*(32000000/4000000.0)));
-     do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-     do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((8)*(32000000/4000000.0)));
-
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((8)*(32000000/4000000.0)));
-     do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-     do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((8)*(32000000/4000000.0)));
-
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-     do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((8)*(32000000/4000000.0)));
-
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((8)*(32000000/4000000.0)));
-     do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((8)*(32000000/4000000.0)));
-     do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-
-   do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((8)*(32000000/4000000.0)));
-     do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
+    INT_SetInterruptHandler(INT_DefaultInterruptHandler);
+    (PIE0bits.INTE = 1);
 
 }
-
-
-__attribute__((inline)) void write_brightness(uint8_t brightness)
+# 59 "mcc_generated_files/system/src/interrupt.c"
+void __attribute__((picinterrupt(("")))) INTERRUPT_InterruptManager (void)
 {
- write_brightness_start();
 
-
-
-    do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((20)*(32000000/4000000.0)));
-     do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((20)*(32000000/4000000.0)));
-     do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((20)*(32000000/4000000.0)));
-     do { LATAbits.LATA2 = 1; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-
- for( int i = 4; i >= 0; i--) {
-
-  if (((brightness & (1 << i )) >> i) == 0 ) {
-
-
-        do { LATAbits.LATA2 = 0; } while(0);
-        _delay((unsigned long)((20)*(32000000/4000000.0)));
-         do { LATAbits.LATA2 = 1; } while(0);
-        _delay((unsigned long)((4)*(32000000/4000000.0)));
-
-  } else {
-
-
-        do { LATAbits.LATA2 = 0; } while(0);
-        _delay((unsigned long)((4)*(32000000/4000000.0)));
-         do { LATAbits.LATA2 = 1; } while(0);
-        _delay((unsigned long)((20)*(32000000/4000000.0)));
-
-  }
-
-
+    if(PIE0bits.INTE == 1 && PIR0bits.INTF == 1)
+    {
+        INT_ISR();
     }
-
-    do { LATAbits.LATA2 = 0; } while(0);
-    _delay((unsigned long)((4)*(32000000/4000000.0)));
-
-    do { LATAbits.LATA2 = 1; } while(0);
-}
-
-
-
-
-
-
-int main(void)
-{
-    SYSTEM_Initialize();
-
-
-
-
-
-    (INTCONbits.GIE = 1);
-
-
-
-
-
-    (INTCONbits.PEIE = 1);
-
-
-
-
-    uint8_t current_brightness = 1;
-    uint8_t next_brightness = 1;
-    _Bool previous_charging_status = 1;
- _Bool breathe_up = 1;
-
-
-
-
-    while(1)
+    else if(PIE0bits.IOCIE == 1 && PIR0bits.IOCIF == 1)
+    {
+        PIN_MANAGER_IOC();
+    }
+    else
     {
 
-        __asm("sleep");
-        __nop();
-            if (PORTAbits.RA5 == 0x1) {
-
-                do { LATAbits.LATA2 = 0; } while(0);
-
-                _delay((unsigned long)((300)*(32000000/4000.0)));
-
-
-                if (PORTAbits.RA5 != 0x1) {
-
-
-
-
-                    if (current_brightness == 31){
-                        next_brightness = 1;
-                    }
-                    else if(current_brightness ==16){
-                        next_brightness = 31;
-                    }
-                    else if(current_brightness ==1){
-                        next_brightness = 16;
-                    }
-                    current_brightness = next_brightness;
-
-
-                    for(int i = 1; i <= current_brightness; i++){
-                    write_brightness(i);
-                    _delay((unsigned long)((10)*(32000000/4000.0)));
-                    }
-# 246 "main.c"
-                    _delay((unsigned long)((50)*(32000000/4000.0)));
-
-
-
-                }
-
-           } else {
-
-                for(int i = 1; i <= current_brightness; i++){
-                write_brightness(i);
-                _delay((unsigned long)((10)*(32000000/4000.0)));
-                }
-
-
-
-
-
-                }
-
-
-
-
-        if (PORTAbits.RA4 == 0x1) {
-            if (previous_charging_status == 0) {
-            previous_charging_status = 1;
-            }
-           } else {
-
-                if (previous_charging_status == 1) {
-                    previous_charging_status = 0;
-
-                    if (PORTAbits.RA5 == 0x1) {
-                        write_brightness(current_brightness);
-                        _delay((unsigned long)((500)*(32000000/4000.0)));
-                        do { LATAbits.LATA2 = 0; } while(0);
-                    } else {
-                        do { LATAbits.LATA2 = 0; } while(0);
-                        _delay((unsigned long)((500)*(32000000/4000.0)));
-                        write_brightness(current_brightness);
-                    }
-                }
-           }
-
-
-
-
-
     }
+}
+
+void INT_ISR(void)
+{
+    (PIR0bits.INTF = 0);
+
+
+    INT_CallBack();
+}
+
+
+void INT_CallBack(void)
+{
+
+    if(INT_InterruptHandler)
+    {
+        INT_InterruptHandler();
+    }
+}
+
+void INT_SetInterruptHandler(void (* InterruptHandler)(void)){
+    INT_InterruptHandler = InterruptHandler;
+}
+
+void INT_DefaultInterruptHandler(void){
+
+
 }

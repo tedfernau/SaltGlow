@@ -136,15 +136,17 @@
 "166 C:\Users\fernau\OneDrive - F5, Inc\Desktop\non-work\LunchTimeProjects\SaltGlow\firmware\main.c
 [v _main main `(i  1 e 2 0 ]
 {
-"234
-[v main@i i `i  1 a 2 8 ]
+"222
+[v main@i i `i  1 a 2 1 ]
+"254
+[v main@i_307 i `i  1 a 2 3 ]
 "185
-[v main@current_brightness current_brightness `uc  1 a 1 12 ]
+[v main@current_brightness current_brightness `uc  1 a 1 6 ]
 "187
-[v main@breathe_up breathe_up `a  1 a 1 11 ]
+[v main@previous_charging_status previous_charging_status `a  1 a 1 5 ]
 "186
-[v main@previous_charging_status previous_charging_status `a  1 a 1 10 ]
-"274
+[v main@next_brightness next_brightness `uc  1 a 1 0 ]
+"294
 } 0
 "108
 [v _write_brightness write_brightness `T(v  1 e 1 0 ]

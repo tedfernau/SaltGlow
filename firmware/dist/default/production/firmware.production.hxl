@@ -1,26 +1,26 @@
 ### HEXMate logfile and output summary ###
 
 ### Command-line arguments ###
- C:\Users\fernau\AppData\Local\Temp\xcAspos.0\driver_tmp_3.o
+ C:\Users\fernau\AppData\Local\Temp\xcAsjmk.0\driver_tmp_3.o
  -Odist/default/production\firmware.production.hex
  -logfile=dist/default/production\firmware.production.hxl
  -addressing=2
 
 ### Memory Usage ###
  Input file ranges:
-  0h - 1h		(C:\Users\fernau\AppData\Local\Temp\xcAspos.0\driver_tmp_3.o)
-  8h - 4CFh		(C:\Users\fernau\AppData\Local\Temp\xcAspos.0\driver_tmp_3.o)
-  1000Eh - 10011h		(C:\Users\fernau\AppData\Local\Temp\xcAspos.0\driver_tmp_3.o)
-  10014h - 10017h		(C:\Users\fernau\AppData\Local\Temp\xcAspos.0\driver_tmp_3.o)
+  0h - 1h		(C:\Users\fernau\AppData\Local\Temp\xcAsjmk.0\driver_tmp_3.o)
+  8h - 4FFh		(C:\Users\fernau\AppData\Local\Temp\xcAsjmk.0\driver_tmp_3.o)
+  1000Eh - 10011h		(C:\Users\fernau\AppData\Local\Temp\xcAsjmk.0\driver_tmp_3.o)
+  10014h - 10017h		(C:\Users\fernau\AppData\Local\Temp\xcAsjmk.0\driver_tmp_3.o)
  Unused ranges:
   2h - 7h
-  4D0h - 1000Dh
+  500h - 1000Dh
   10012h - 10013h
 
 ### Hex Memory Map ###
  Legend:
   -- = Unused memory
-  H1 = Input file             (C:\Users\fernau\AppData\Local\Temp\xcAspos.0\driver_tmp_3.o)
+  H1 = Input file             (C:\Users\fernau\AppData\Local\Temp\xcAsjmk.0\driver_tmp_3.o)
 ----------------------------------------------------------
          | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 ----------------------------------------------------------
@@ -101,6 +101,9 @@
 000004A0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 000004B0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 000004C0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+000004D0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+000004E0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+000004F0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 ----------------------------------------------------------
 00010000 | -- -- -- -- -- -- -- -- -- -- -- -- -- -- H1 H1
 00010010 | H1 H1 -- -- H1 H1 H1 H1 -- -- -- -- -- -- -- --
